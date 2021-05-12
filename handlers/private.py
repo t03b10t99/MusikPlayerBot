@@ -9,9 +9,7 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAADBQADKAIAAmQgIVd2e584kTrkUgI")
     await message.reply_text(
-        f"""Hai 👋🏻, I am Sujandra 🎵
-
-👋🏻 Hai {}!
+        f"""Hai 👋🏻, Saya ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ 🎵
 
 Bot musik adalah bot sumber terbuka yang memungkinkan Anda memutar musik di grup telegram Anda.
 Tidak mengetahui cara memakainya? Baca ᴘᴀɴᴅᴜᴀɴ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ agar langsung memahami tanpa bertanya!
