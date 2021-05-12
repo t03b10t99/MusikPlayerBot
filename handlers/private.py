@@ -11,25 +11,30 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""Hai 👋🏻, I am Sujandra 🎵
 
-I can play music in your group's voice call. Developed by [Hendra](https://t.me/IamYourEnemy).
+👋🏻 Hai {}!
 
-Add me to your group and play music freely!
+Bot musik adalah bot sumber terbuka yang memungkinkan Anda memutar musik di grup telegram Anda.
+Tidak mengetahui cara memakainya? Baca ᴘᴀɴᴅᴜᴀɴ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ agar langsung memahami tanpa bertanya!
+┈──────────────────
+Kutipan: "Ada waktunya kita akan terpuruk dan menangis.
+Tapi Percayalah di setiap tangis pasti akan ada kebahagiaan yang akan datang"
+Dikelola oleh [ɢᴏᴏᴅ ʙᴏʏs](t.me/GB_03101999)!
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🎛 Commands", url="https://telegra.ph/Sujandra-Musik-04-24")
+                        "🧾 ᴘᴀɴᴅᴜᴀɴ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ 🧾", url="https://telegra.ph/GB-MUSIK-BOT-05-12")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/VcgSupportGroup"
+                        "🎁 ᴅᴏɴᴀsɪ", url="https://saweria.co/DonasiUntukAdmin"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Kutipankataaa"
+                        "ᴘᴇᴍɪʟɪᴋ 👑", url="https://t.me/GB_03101999"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "🎁 Donasi", url="https://t.me/IamYourEnemy"
+                        " ➕ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ ➕", url="http://t.me/GB_MusikBot?startgroup=start"
                     )]
             ]
         ),
@@ -38,15 +43,14 @@ Add me to your group and play music freely!
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**Sujandra Music Player Online ✅**""",
+      await message.reply_text("""**ɢʙ | ᴍᴜsɪᴋ Player Online ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Support Channel 🌻", url="https://t.me/AkuUserBot")
+                        "🎁 ᴅᴏɴᴀsɪ", url="https://saweria.co/DonasiUntukAdmin")
                 ]
             ]
         )
    )
-
 
