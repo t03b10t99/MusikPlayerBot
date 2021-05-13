@@ -13,7 +13,7 @@ async def start(_, message: Message):
 
 Bot musik adalah bot sumber terbuka yang memungkinkan Anda memutar musik di grup telegram Anda.
 Tidak mengetahui cara memakainya? Baca ᴘᴀɴᴅᴜᴀɴ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ agar langsung memahami tanpa bertanya!
-┈──────────────────
+─────────────────────
 Kutipan: "Ada waktunya kita akan terpuruk dan menangis.
 Tapi Percayalah di setiap tangis pasti akan ada kebahagiaan yang akan datang"
 Dikelola oleh [ɢᴏᴏᴅ ʙᴏʏs](t.me/GB_03101999)!
