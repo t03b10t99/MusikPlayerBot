@@ -94,12 +94,10 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Group Support",
-                        url="https://t.me/masukajaudhh")
+                        text="🎁 ᴅᴏɴᴀsɪ",
+                        url="https://saweria.co/DonasiUntukAdmin")
                 ],[
-                    InlineKeyboardButton(
-                        text="Pemilik") 
-                        url="https://t.me/xflicks")
+                    InlineKeyboardButton("Close",'cls') 
                    
                 ]
             ]
@@ -123,14 +121,9 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
                 [
                     [
-
-                    InlineKeyboardButton(
-                        text="Group Support",
-                        url="https://t.me/masukajaudhh")
-                ],[
-                    InlineKeyboardButton(
-                        text="Pemilik") 
-                        url="https://t.me/xflicks")
+                        InlineKeyboardButton(
+                            text="ᴘᴇᴍɪʟɪᴋ 👑",
+                            url=f"https://t.me/GB_03101999")
 
                     ]
                 ]
@@ -157,35 +150,24 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                     [
                         [
-
-                    InlineKeyboardButton(
-                        text="Group Support",
-                        url="https://t.me/masukajaudhh")
-                ],[
-                    InlineKeyboardButton(
-                        text="Pemilik") 
-                        url="https://t.me/xflicks")
-                   
+                            InlineKeyboardButton(
+                                text="🎁 ᴅᴏɴᴀsɪ",
+                                url=f"https://saweria.co/DonasiUntukAdmin")
 
                         ]
                     ]
                 )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/00ca4b2a7123c14e56f90.jpg"
+            thumb_name = "https://telegra.ph/file/df331424a557c9bdc1196.mp4"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
                     [
                         [
-
-                    InlineKeyboardButton(
-                        text="Group Support",
-                        url="https://t.me/masukajaudhh")
-                ],[
-                    InlineKeyboardButton(
-                        text="Pemilik") 
-                        url="https://t.me/xflicks")
+                            InlineKeyboardButton(
+                                text="ᴘᴇᴍɪʟɪᴋ 🤷",
+                                url=f"https://t.me/GB_03101999")
 
                         ]
                     ]
@@ -230,14 +212,9 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
                 [
                     [
-
-                    InlineKeyboardButton(
-                        text="Group Support",
-                        url="https://t.me/masukajaudhh")
-                ],[
-                    InlineKeyboardButton(
-                        text="Pemilik") 
-                        url="https://t.me/xflicks")
+                        InlineKeyboardButton(
+                            text="ᴘᴇᴍɪʟɪᴋ 👑",
+                            url=f"https://t.me/GB_03101999")
 
                     ]
                 ]
