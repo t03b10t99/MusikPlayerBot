@@ -41,17 +41,17 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "❌ Found Nothing.\n\nTry another keywork or maybe spell it properly."
+            "❌ Tidak ditemukan apa pun.\m\nCoba kata kunci lain atau mungkin mengejanya dengan benar."
         )
         print(str(e))
         return
-    m.edit("🎶 Mendownload lagu oleh @GB_0310999...")
+    m.edit("🎶 Mendownload lagu oleh @03101999...")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**🎵 Diunggah oleh [ɢᴏᴏᴅ ʙᴏʏs](t.me/GB_03101999)**'
+        rep = '**🎵 Diunggah [ɢᴏᴏᴅ ʙᴏʏs](t.me/GB_03101999)**'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
