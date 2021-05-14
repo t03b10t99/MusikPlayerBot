@@ -93,8 +93,6 @@ async def play(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    [
-                   [
                     InlineKeyboardButton(
                         text="Group Support",
                         url="https://t.me/masukajaudhh")
@@ -125,8 +123,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        [
-                   [
+
                     InlineKeyboardButton(
                         text="Group Support",
                         url="https://t.me/masukajaudhh")
@@ -160,8 +157,7 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                     [
                         [
-                            [
-                   [
+
                     InlineKeyboardButton(
                         text="Group Support",
                         url="https://t.me/masukajaudhh")
@@ -182,8 +178,7 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                     [
                         [
-                            [
-                   [
+
                     InlineKeyboardButton(
                         text="Group Support",
                         url="https://t.me/masukajaudhh")
@@ -235,8 +230,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        [
-                   [
+
                     InlineKeyboardButton(
                         text="Group Support",
                         url="https://t.me/masukajaudhh")
