@@ -94,10 +94,10 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🎁 ᴅᴏɴᴀsɪ",
-                        url="https://saweria.co/DonasiUntukAdmin")
-                ],[
-                    InlineKeyboardButton("Close",'cls') 
+                        "🎁 ᴅᴏɴᴀsɪ", url="https://saweria.co/DonasiUntukAdmin"
+                    ),
+                    InlineKeyboardButton(
+                        "ᴘᴇᴍɪʟɪᴋ 👑", url="https://t.me/GB_03101999"
                    
                 ]
             ]
@@ -122,8 +122,10 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴘᴇᴍɪʟɪᴋ 👑",
-                            url=f"https://t.me/GB_03101999")
+                        "🎁 ᴅᴏɴᴀsɪ", url="https://saweria.co/DonasiUntukAdmin"
+                    ),
+                    InlineKeyboardButton(
+                        "ᴘᴇᴍɪʟɪᴋ 👑", url="https://t.me/GB_03101999"
 
                     ]
                 ]
@@ -151,8 +153,10 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                text="🎁 ᴅᴏɴᴀsɪ",
-                                url=f"https://saweria.co/DonasiUntukAdmin")
+                        "🎁 ᴅᴏɴᴀsɪ", url="https://saweria.co/DonasiUntukAdmin"
+                    ),
+                    InlineKeyboardButton(
+                        "ᴘᴇᴍɪʟɪᴋ 👑", url="https://t.me/GB_03101999"
 
                         ]
                     ]
@@ -166,8 +170,10 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                text="🎁 ᴅᴏɴᴀsɪ",
-                                url=f"https://saweria.co/DonasiUntukAdmin")
+                        "🎁 ᴅᴏɴᴀsɪ", url="https://saweria.co/DonasiUntukAdmin"
+                    ),
+                    InlineKeyboardButton(
+                        "ᴘᴇᴍɪʟɪᴋ 👑", url="https://t.me/GB_03101999"
 
                         ]
                     ]
@@ -213,8 +219,10 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴘᴇᴍɪʟɪᴋ 👑",
-                            url=f"https://t.me/GB_03101999")
+                        "🎁 ᴅᴏɴᴀsɪ", url="https://saweria.co/DonasiUntukAdmin"
+                    ),
+                    InlineKeyboardButton(
+                        "ᴘᴇᴍɪʟɪᴋ 👑", url="https://t.me/GB_03101999"
 
                     ]
                 ]
