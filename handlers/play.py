@@ -105,9 +105,6 @@ async def play(_, message: Message):
                    
                 ]
             ]
-                   
-                ]
-            ]
         )
 
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
@@ -137,9 +134,6 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                         text="Pemilik") 
                         url="https://t.me/xflicks")
-                   
-                ]
-            ]
 
                     ]
                 ]
@@ -176,8 +170,6 @@ async def play(_, message: Message):
                         text="Pemilik") 
                         url="https://t.me/xflicks")
                    
-                ]
-            ]
 
                         ]
                     ]
@@ -199,9 +191,6 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                         text="Pemilik") 
                         url="https://t.me/xflicks")
-                   
-                ]
-            ]
 
                         ]
                     ]
@@ -255,9 +244,6 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                         text="Pemilik") 
                         url="https://t.me/xflicks")
-                   
-                ]
-            ]
 
                     ]
                 ]
