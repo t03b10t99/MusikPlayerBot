@@ -86,7 +86,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 @errors
 async def play(_, message: Message):
 
-    lel = await message.reply("🔄 Processing Sounds...")
+    lel = await message.reply("🔎 Mencari musik...")
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
 
@@ -166,8 +166,8 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                text="🎁 ᴅᴏɴᴀsɪ",
-                                url=f"https://saweria.co/DonasiUntukAdmin")
+                                text="ᴘᴇᴍɪʟɪᴋ 🤷",
+                                url=f"https://t.me/GB_03101999")
 
                         ]
                     ]
