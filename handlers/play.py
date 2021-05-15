@@ -124,6 +124,10 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
+                        text="🎁 ᴅᴏɴᴀsɪ",
+                        url="https://saweria.co/DonasiUntukAdmin")
+                ],[
+                    InlineKeyboardButton(
                             text="ᴘᴇᴍɪʟɪᴋ 👑",
                             url=f"https://t.me/GB_03101999")
 
@@ -153,8 +157,12 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                text="🎁 ᴅᴏɴᴀsɪ",
-                                url=f"https://saweria.co/DonasiUntukAdmin")
+                        text="🎁 ᴅᴏɴᴀsɪ",
+                        url="https://saweria.co/DonasiUntukAdmin")
+                ],[
+                    InlineKeyboardButton(
+                            text="ᴘᴇᴍɪʟɪᴋ 👑",
+                            url=f"https://t.me/GB_03101999")
 
                         ]
                     ]
@@ -168,8 +176,12 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                text="ᴘᴇᴍɪʟɪᴋ 🤷",
-                                url=f"https://t.me/GB_03101999")
+                        text="🎁 ᴅᴏɴᴀsɪ",
+                        url="https://saweria.co/DonasiUntukAdmin")
+                ],[
+                    InlineKeyboardButton(
+                            text="ᴘᴇᴍɪʟɪᴋ 👑",
+                            url=f"https://t.me/GB_03101999")
 
                         ]
                     ]
@@ -215,6 +227,10 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
+                        text="🎁 ᴅᴏɴᴀsɪ",
+                        url="https://saweria.co/DonasiUntukAdmin")
+                ],[
+                    InlineKeyboardButton(
                             text="ᴘᴇᴍɪʟɪᴋ 👑",
                             url=f"https://t.me/GB_03101999")
 
