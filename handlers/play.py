@@ -94,10 +94,12 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🎁 ᴅᴏɴᴀsɪ",
-                        url="https://saweria.co/DonasiUntukAdmin")
+                        text="Group Support",
+                        url="https://t.me/masukajaudhh")
                 ],[
-                    InlineKeyboardButton("Close",'cls') 
+                    InlineKeyboardButton(
+                        text="Pemilik") 
+                        url="https://t.me/xflicks")
                    
                 ]
             ]
@@ -122,8 +124,12 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴘᴇᴍɪʟɪᴋ 👑",
-                            url=f"https://t.me/GB_03101999")
+                        text="Group Support",
+                        url="https://t.me/masukajaudhh")
+                ],[
+                    InlineKeyboardButton(
+                        text="Pemilik") 
+                        url="https://t.me/xflicks")
 
                     ]
                 ]
@@ -151,8 +157,12 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                text="🎁 ᴅᴏɴᴀsɪ",
-                                url=f"https://saweria.co/DonasiUntukAdmin")
+                        text="Group Support",
+                        url="https://t.me/masukajaudhh")
+                ],[
+                    InlineKeyboardButton(
+                        text="Pemilik") 
+                        url="https://t.me/xflicks")
 
                         ]
                     ]
@@ -166,8 +176,12 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                text="ᴘᴇᴍɪʟɪᴋ 🤷",
-                                url=f"https://t.me/GB_03101999")
+                        text="Group Support",
+                        url="https://t.me/masukajaudhh")
+                ],[
+                    InlineKeyboardButton(
+                        text="Pemilik") 
+                        url="https://t.me/xflicks")
 
                         ]
                     ]
@@ -213,8 +227,12 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴘᴇᴍɪʟɪᴋ 👑",
-                            url=f"https://t.me/GB_03101999")
+                        text="Group Support",
+                        url="https://t.me/masukajaudhh")
+                ],[
+                    InlineKeyboardButton(
+                        text="Pemilik") 
+                        url="https://t.me/xflicks")
 
                     ]
                 ]
