@@ -95,7 +95,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="🗯 ɢʀᴜᴘ sᴜᴘᴘᴏʀᴛ 🗯",
-                        url="https://t.me/masukajaudhh")
+                        url="https://t.me/masukajaudhh"),
                 ],[
                     InlineKeyboardButton(
                             text="👑 ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ 👑",
@@ -125,7 +125,7 @@ async def play(_, message: Message):
                     [
                         InlineKeyboardButton(
                         text="🗯 ɢʀᴜᴘ sᴜᴘᴘᴏʀᴛ 🗯",
-                        url="https://t.me/masukajaudhh")
+                        url="https://t.me/masukajaudhh"),
                 ],[
                     InlineKeyboardButton(
                             text="👑 ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ 👑",
@@ -158,7 +158,7 @@ async def play(_, message: Message):
                         [
                             InlineKeyboardButton(
                         text="🗯 ɢʀᴜᴘ sᴜᴘᴘᴏʀᴛ 🗯",
-                        url="https://t.me/masukajaudhh")
+                        url="https://t.me/masukajaudhh"),
                 ],[
                     InlineKeyboardButton(
                             text="👑 ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ 👑",
@@ -177,7 +177,7 @@ async def play(_, message: Message):
                         [
                             InlineKeyboardButton(
                         text="🗯 ɢʀᴜᴘ sᴜᴘᴘᴏʀᴛ 🗯",
-                        url="https://t.me/masukajaudhh")
+                        url="https://t.me/masukajaudhh"),
                 ],[
                     InlineKeyboardButton(
                             text="👑 ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ 👑",
@@ -228,7 +228,7 @@ async def play(_, message: Message):
                     [
                         InlineKeyboardButton(
                         text="🗯 ɢʀᴜᴘ sᴜᴘᴘᴏʀᴛ 🗯",
-                        url="https://t.me/masukajaudhh")
+                        url="https://t.me/masukajaudhh"),
                 ],[
                     InlineKeyboardButton(
                             text="👑 ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ 👑",
