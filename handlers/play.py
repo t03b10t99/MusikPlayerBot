@@ -96,7 +96,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                         text="🗯 ɢʀᴜᴘ sᴜᴘᴘᴏʀᴛ 🗯",
                         url="https://t.me/masukajaudhh"),
-                ],[
+
                     InlineKeyboardButton(
                             text="👑 ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ 👑",
                             url=f"https://t.me/GB_03101999")
@@ -126,7 +126,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton(
                         text="🗯 ɢʀᴜᴘ sᴜᴘᴘᴏʀᴛ 🗯",
                         url="https://t.me/masukajaudhh"),
-                ],[
+
                     InlineKeyboardButton(
                             text="👑 ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ 👑",
                             url=f"https://t.me/GB_03101999")
@@ -159,7 +159,7 @@ async def play(_, message: Message):
                             InlineKeyboardButton(
                         text="🗯 ɢʀᴜᴘ sᴜᴘᴘᴏʀᴛ 🗯",
                         url="https://t.me/masukajaudhh"),
-                ],[
+
                     InlineKeyboardButton(
                             text="👑 ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ 👑",
                             url=f"https://t.me/GB_03101999")
@@ -178,7 +178,7 @@ async def play(_, message: Message):
                             InlineKeyboardButton(
                         text="🗯 ɢʀᴜᴘ sᴜᴘᴘᴏʀᴛ 🗯",
                         url="https://t.me/masukajaudhh"),
-                ],[
+
                     InlineKeyboardButton(
                             text="👑 ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ 👑",
                             url=f"https://t.me/GB_03101999")
@@ -229,7 +229,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton(
                         text="🗯 ɢʀᴜᴘ sᴜᴘᴘᴏʀᴛ 🗯",
                         url="https://t.me/masukajaudhh"),
-                ],[
+
                     InlineKeyboardButton(
                             text="👑 ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ 👑",
                             url=f"https://t.me/GB_03101999")
