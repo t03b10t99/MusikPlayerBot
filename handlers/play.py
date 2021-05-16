@@ -94,12 +94,12 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🗯 ɢʀᴜᴘ sᴜᴘᴘᴏʀᴛ 🗯",
-                        url="https://t.me/masukajaudhh"),
+                        text="🎁 𝗗𝗢𝗡𝗔𝗦𝗜",
+                        url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="👑 ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ 👑",
-                            url=f"https://t.me/GB_03101999")
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗨𝗣 🗯",
+                            url=f"https://t.me/masukajaudhh")
                    
                 ]
             ]
@@ -124,12 +124,12 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                        text="🗯 ɢʀᴜᴘ sᴜᴘᴘᴏʀᴛ 🗯",
-                        url="https://t.me/masukajaudhh"),
+                        text="🎁 𝗗𝗢𝗡𝗔𝗦𝗜",
+                        url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="👑 ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ 👑",
-                            url=f"https://t.me/GB_03101999")
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗨𝗣 🗯",
+                            url=f"https://t.me/masukajaudhh")
 
                     ]
                 ]
@@ -157,12 +157,12 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                        text="🗯 ɢʀᴜᴘ sᴜᴘᴘᴏʀᴛ 🗯",
-                        url="https://t.me/masukajaudhh"),
+                        text="🎁 𝗗𝗢𝗡𝗔𝗦𝗜",
+                        url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="👑 ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ 👑",
-                            url=f"https://t.me/GB_03101999")
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗨𝗣 🗯",
+                            url=f"https://t.me/masukajaudhh")
 
                         ]
                     ]
@@ -176,12 +176,12 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                        text="🗯 ɢʀᴜᴘ sᴜᴘᴘᴏʀᴛ 🗯",
-                        url="https://t.me/masukajaudhh"),
+                        text="🎁 𝗗𝗢𝗡𝗔𝗦𝗜",
+                        url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="👑 ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ 👑",
-                            url=f"https://t.me/GB_03101999")
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗨𝗣 🗯",
+                            url=f"https://t.me/masukajaudhh")
 
                         ]
                     ]
@@ -227,12 +227,12 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                        text="🗯 ɢʀᴜᴘ sᴜᴘᴘᴏʀᴛ 🗯",
-                        url="https://t.me/masukajaudhh"),
+                        text="🎁 𝗗𝗢𝗡𝗔𝗦𝗜",
+                        url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="👑 ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ 👑",
-                            url=f"https://t.me/GB_03101999")
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗨𝗣 🗯",
+                            url=f"https://t.me/masukajaudhh")
 
                     ]
                 ]
