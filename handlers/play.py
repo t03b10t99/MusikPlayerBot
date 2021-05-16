@@ -98,7 +98,7 @@ async def play(_, message: Message):
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗨𝗣 🗯",
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🗯",
                             url=f"https://t.me/masukajaudhh")
                    
                 ]
@@ -128,7 +128,7 @@ async def play(_, message: Message):
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗨𝗣 🗯",
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🗯",
                             url=f"https://t.me/masukajaudhh")
 
                     ]
@@ -161,7 +161,7 @@ async def play(_, message: Message):
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗨𝗣 🗯",
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🗯",
                             url=f"https://t.me/masukajaudhh")
 
                         ]
@@ -180,7 +180,7 @@ async def play(_, message: Message):
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗨𝗣 🗯",
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🗯",
                             url=f"https://t.me/masukajaudhh")
 
                         ]
@@ -231,7 +231,7 @@ async def play(_, message: Message):
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗨𝗣 🗯",
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🗯",
                             url=f"https://t.me/masukajaudhh")
 
                     ]
