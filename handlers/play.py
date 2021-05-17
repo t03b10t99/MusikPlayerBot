@@ -86,7 +86,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 @errors
 async def play(_, message: Message):
 
-    lel = await message.reply("🔎 Mencari musik...")
+    lel = await message.reply("**✅ Sedang Memproses**...")
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
 
@@ -111,12 +111,12 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"❌ Video dengan durasi lebih dari {DURATION_LIMIT} menit tidak diperbolehkan untuk diputar!"
+                f"❌ musik dengan durasi lebih dari {DURATION_LIMIT} menit tidak diperbolehkan untuk diputar!"
             )
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/e5ad6c2cb51253d5dd7c8.jpg"
+        thumb_name = "https://telegra.ph/file/a3927932a5e30bda61129.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -169,7 +169,7 @@ async def play(_, message: Message):
                 )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/e5ad6c2cb51253d5dd7c8.jpg"
+            thumb_name = "https://telegra.ph/file/a3927932a5e30bda61129.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -190,7 +190,7 @@ async def play(_, message: Message):
         await generate_cover(requested_by, title, views, duration, thumbnail)     
         file_path = await converter.convert(youtube.download(url))
     else:
-        await lel.edit("🎶 Musik ditemukan...")
+        await lel.edit("**🔎 Mencari Musik**")
         sender_id = message.from_user.id
         user_id = message.from_user.id
         sender_name = message.from_user.first_name
@@ -201,7 +201,7 @@ async def play(_, message: Message):
         for i in message.command[1:]:
             query += ' ' + str(i)
         print(query)
-        await lel.edit("🎵 Memutar musik...")
+        await lel.edit("**▶️ Memutar musik**")
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
