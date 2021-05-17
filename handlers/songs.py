@@ -22,7 +22,7 @@ def song(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply('🔎 Menemukan lagu...')
+    m = message.reply('**🔎 Sedang Mencari Musik**')
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -41,11 +41,11 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "❌ Tidak ditemukan apa pun.\n\nCoba kata kunci lain atau mungkin mengejanya dengan benar."
+            "*"❌ Tidak ditemukan apa pun.\n\nCoba kata kunci lain atau mungkin mengejanya dengan benar.**"
         )
         print(str(e))
         return
-    m.edit("🎶 Mendownload lagu oleh @GB_03101999...")
+    m.edit("**✅ Mendownload lagu oleh [ɢᴏᴏᴅ ʙᴏʏs(https://t.me/GB_03101999)")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
