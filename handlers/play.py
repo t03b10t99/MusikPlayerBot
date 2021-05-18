@@ -255,7 +255,8 @@ async def play(_, message: Message):
         photo="final.png",
         reply_markup=keyboard,
         caption=f"🏷 **Judul:** [{title[:60]}]({url})\n**⏱ Durasi musik:** {duration}\n" \
-                + f"💡 **Status musik:** memutar\n🎧 **Permintaan:** {requested_by}".{message.from_user.mention}
+                + f"💡 **Status musik:** memutar\n🎧 **Permintaan:** {requested_by}".format(
+        message.from_user.mention()
         ),
     )
         os.remove("final.png")
