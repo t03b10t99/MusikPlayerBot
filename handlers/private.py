@@ -7,9 +7,9 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAEFSQABYJyJBCa9zcPfokSy21glVGJ0ZS8AArwCAAIepmlUA2tU7m0u6EkeBA")
+    await message.reply_sticker("CAACAgUAAx0CTvHoHwACVxZgoeo1z6IvIuovhaKpGgT777YyegACOAIAAounEFUEmmIndT6-Ix8E")
     await message.reply_text(
-        f"""👋🏻 Hai {message.from_user.first_name}, Saya {bn} 🎵
+        f"""👋🏻 Hai {message.from_user.first_name}
 
 Bot musik adalah bot sumber terbuka yang memungkinkan Anda memutar musik di grup telegram Anda.
 Tidak mengetahui cara memakainya? Baca ᴘᴀɴᴅᴜᴀɴ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ agar langsung memahami tanpa bertanya!
