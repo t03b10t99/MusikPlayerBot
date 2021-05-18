@@ -39,7 +39,7 @@ Dikelola oleh [ɢᴏᴏᴅ ʙᴏʏs](t.me/GB_03101999)!
      disable_web_page_preview=True
     )
 
-@Client.on_message(filters.command("start{bn}") & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command("start@GB_MusikBot") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
       await message.reply_text("""**✅ Jangan lupa beri saya hak admin agar saya dapat berjalan dengan baik**""",
       reply_markup=InlineKeyboardMarkup(
