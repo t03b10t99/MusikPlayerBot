@@ -9,11 +9,11 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAEFSQABYJyJBCa9zcPfokSy21glVGJ0ZS8AArwCAAIepmlUA2tU7m0u6EkeBA")
     await message.reply_text(
-        f"""👋🏻 Hai, Saya {bn} 🎵
+        f"""👋🏻 Hai {message.from_user.first_name}, Saya {bn} 🎵
 
 Bot musik adalah bot sumber terbuka yang memungkinkan Anda memutar musik di grup telegram Anda.
 Tidak mengetahui cara memakainya? Baca ᴘᴀɴᴅᴜᴀɴ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ agar langsung memahami tanpa bertanya!
-─────────────────────
+━─━─━─━─━─━─━─━─━─━─━
 Kutipan: "Ada waktunya kita akan terpuruk dan menangis.
 Tapi Percayalah di setiap tangis pasti akan ada kebahagiaan yang akan datang"
 Dikelola oleh [ɢᴏᴏᴅ ʙᴏʏs](t.me/GB_03101999)!
