@@ -16,7 +16,6 @@ Silahkan tekan > /help untuk melihat fitur manager saya
 ━─━─━─━─━─━─━─━─━─━─━
 Kutipan: "Ada waktunya kita akan terpuruk dan menangis.
 Tapi Percayalah di setiap tangis pasti akan ada kebahagiaan yang akan datang"
-Dikelola oleh [ɢᴏᴏᴅ ʙᴏʏs](t.me/GB_03101999)!
         """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -25,7 +24,7 @@ Dikelola oleh [ɢᴏᴏᴅ ʙᴏʏs](t.me/GB_03101999)!
                         "🎁 𝗗𝗼𝗻𝗮𝘀𝗶", url="https://saweria.co/DonasiUntukAdmin"
                     ),
                     InlineKeyboardButton(
-                        "𝗣𝗲𝗺𝗶𝗹𝗶𝗸 👑", url="https://t.me/GB_03101999"
+                        "𝗦𝘂𝗽𝗽𝗼𝗿𝘁 🗯️", url="https://t.me/GB_03101999"
                     )
                 ],[ 
                     InlineKeyboardButton(
