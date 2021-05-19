@@ -22,9 +22,6 @@ Dikelola oleh [ɢᴏᴏᴅ ʙᴏʏs](t.me/GB_03101999)!
             [
                 [
                     InlineKeyboardButton(
-                        "🧾 𝗣𝗮𝗻𝗱𝘂𝗮𝗻 𝗠𝗲𝗻𝗴𝗴𝘂𝗻𝗮𝗸𝗮𝗻 𝗕𝗼𝘁 🧾", url="https://telegra.ph/GB-MUSIK-BOT-05-12")
-                  ],[
-                    InlineKeyboardButton(
                         "🎁 𝗗𝗼𝗻𝗮𝘀𝗶", url="https://saweria.co/DonasiUntukAdmin"
                     ),
                     InlineKeyboardButton(
