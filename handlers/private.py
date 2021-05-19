@@ -41,7 +41,7 @@ Dikelola oleh [ɢᴏᴏᴅ ʙᴏʏs](t.me/GB_03101999)!
 
 @Client.on_message(filters.command("start@GB_MusikBot") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**✅ Jangan lupa beri saya hak admin agar saya dapat berjalan dengan baik**""",
+      await message.reply_text("""**👋🏻 Hai saya {bn} Terimakasih telah mengundang saya\n✅ Silahkan klik tombol dibawah untuk membaca cara menggunakan saya\n🎵 Selamat bermusik**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
