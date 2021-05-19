@@ -12,7 +12,7 @@ async def start(_, message: Message):
         f"""👋🏻 Hai {message.from_user.mention}
 
 Bot musik adalah bot sumber terbuka yang memungkinkan Anda memutar musik di grup telegram Anda.
-Tidak mengetahui cara memakainya? Baca ᴘᴀɴᴅᴜᴀɴ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ agar langsung memahami tanpa bertanya!
+Tidak mengetahui cara memakainya? Baca 𝗣𝗮𝗻𝗱𝘂𝗮𝗻 𝗠𝗲𝗻𝗴𝗴𝘂𝗻𝗮𝗸𝗮𝗻 𝗕𝗼𝘁 agar langsung memahami tanpa bertanya!
 ━─━─━─━─━─━─━─━─━─━─━
 Kutipan: "Ada waktunya kita akan terpuruk dan menangis.
 Tapi Percayalah di setiap tangis pasti akan ada kebahagiaan yang akan datang"
@@ -22,17 +22,17 @@ Dikelola oleh [ɢᴏᴏᴅ ʙᴏʏs](t.me/GB_03101999)!
             [
                 [
                     InlineKeyboardButton(
-                        "🧾 ᴘᴀɴᴅᴜᴀɴ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ 🧾", url="https://telegra.ph/GB-MUSIK-BOT-05-12")
+                        "🧾 𝗣𝗮𝗻𝗱𝘂𝗮𝗻 𝗠𝗲𝗻𝗴𝗴𝘂𝗻𝗮𝗸𝗮𝗻 𝗕𝗼𝘁 🧾", url="https://telegra.ph/GB-MUSIK-BOT-05-12")
                   ],[
                     InlineKeyboardButton(
-                        "🎁 ᴅᴏɴᴀsɪ", url="https://saweria.co/DonasiUntukAdmin"
+                        "🎁 𝗗𝗼𝗻𝗮𝘀𝗶", url="https://saweria.co/DonasiUntukAdmin"
                     ),
                     InlineKeyboardButton(
-                        "ᴘᴇᴍɪʟɪᴋ 👑", url="https://t.me/GB_03101999"
+                        "𝗣𝗲𝗺𝗶𝗹𝗶𝗸 👑", url="https://t.me/GB_03101999"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        " ➕ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ ➕", url="http://t.me/GB_MusikBot?startgroup=start"
+                        " ➕ 𝗧𝗮𝗺𝗯𝗮𝗵𝗸𝗮𝗻 𝗞𝗲 𝗚𝗿𝘂𝗽 ➕", url="http://t.me/GB_MusikBot?startgroup=start"
                     )]
             ]
         ),
@@ -41,7 +41,7 @@ Dikelola oleh [ɢᴏᴏᴅ ʙᴏʏs](t.me/GB_03101999)!
 
 @Client.on_message(filters.command("start@GB_MusikBot") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**👋🏻 Hai saya {bn} Terimakasih telah mengundang saya\n✅ Silahkan klik tombol dibawah untuk membaca cara menggunakan saya\n🎵 Selamat bermusik**""",
+      await message.reply_text("""**👋🏻 Hai {message.from_user.mention}\n👇🏻 Silahkan klik tombol Panduan dibawah**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
