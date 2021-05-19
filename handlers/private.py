@@ -41,7 +41,7 @@ Dikelola oleh [ɢᴏᴏᴅ ʙᴏʏs](t.me/GB_03101999)!
 
 @Client.on_message(filters.command("start@GB_MusikBot") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**👋🏻 Hai {message.from_user.mention}\n👇🏻 Silahkan klik tombol Panduan dibawah**""",
+      await message.reply_text("""**👋🏻 Hai, Terimakasih telah mengundang saya\n👇🏻 Silahkan klik tombol Panduan dibawah**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
