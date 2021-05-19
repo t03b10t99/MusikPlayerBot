@@ -5,9 +5,8 @@ from config import BOT_NAME as bn
 from helpers.filters import other_filters2
 
 
-@Client.on_message(other_filters2)
+@Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
-    await message.reply_sticker("CAACAgUAAx0CTvHoHwACVxZgoeo1z6IvIuovhaKpGgT777YyegACOAIAAounEFUEmmIndT6-Ix8E")
     await message.reply_text(
         f"""👋🏻 Hai {message.from_user.mention}
 
