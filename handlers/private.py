@@ -10,8 +10,9 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""👋🏻 Hai {message.from_user.mention}
 
-Bot musik adalah bot sumber terbuka yang memungkinkan Anda memutar musik di grup telegram Anda.
-Tidak mengetahui cara memakainya? Baca 𝗣𝗮𝗻𝗱𝘂𝗮𝗻 𝗠𝗲𝗻𝗴𝗴𝘂𝗻𝗮𝗸𝗮𝗻 𝗕𝗼𝘁 agar langsung memahami tanpa bertanya!
+Saya adalah robot manager grup dan saya juga bisa memainkan musik di obrolan suara di grup anda
+Silahkan baca panduan bot musik [klik disini](https://telegra.ph/GB-MUSIK-BOT-05-12)
+Silahkan tekan > /help untuk melihat fitur manager saya
 ━─━─━─━─━─━─━─━─━─━─━
 Kutipan: "Ada waktunya kita akan terpuruk dan menangis.
 Tapi Percayalah di setiap tangis pasti akan ada kebahagiaan yang akan datang"
