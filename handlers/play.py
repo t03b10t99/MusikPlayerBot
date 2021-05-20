@@ -94,7 +94,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="• ᴅᴏɴᴀsɪ" •,
+                        text="• ᴅᴏɴᴀsɪ •",
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
