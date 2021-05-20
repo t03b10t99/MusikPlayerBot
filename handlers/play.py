@@ -98,8 +98,13 @@ async def play(_, message: Message):
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🗯",
-                            url=f"https://t.me/masukajaudhh")
+                            text="𝗣𝗔𝗡𝗗𝗨𝗔𝗡 📖",
+                            url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
+
+                ],[
+                    InlineKeyboardButton(
+                            text="• 𝗢𝗪𝗡𝗘𝗥 𝗚𝗕 | 𝗠𝗨𝗦𝗜𝗞 𝗕𝗢𝗧 •",
+                            url=f"https://t.me/GB_03101999")
                    
                 ]
             ]
@@ -128,8 +133,13 @@ async def play(_, message: Message):
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🗯",
-                            url=f"https://t.me/masukajaudhh")
+                            text="𝗣𝗔𝗡𝗗𝗨𝗔𝗡 📖",
+                            url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
+
+                ],[
+                    InlineKeyboardButton(
+                            text="• 𝗢𝗪𝗡𝗘𝗥 𝗚𝗕 | 𝗠𝗨𝗦𝗜𝗞 𝗕𝗢𝗧 •",
+                            url=f"https://t.me/GB_03101999")
 
                     ]
                 ]
@@ -161,8 +171,13 @@ async def play(_, message: Message):
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🗯",
-                            url=f"https://t.me/masukajaudhh")
+                            text="𝗣𝗔𝗡𝗗𝗨𝗔𝗡 📖",
+                            url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
+
+                ],[
+                    InlineKeyboardButton(
+                            text="• 𝗢𝗪𝗡𝗘𝗥 𝗚𝗕 | 𝗠𝗨𝗦𝗜𝗞 𝗕𝗢𝗧 •",
+                            url=f"https://t.me/GB_03101999")
 
                         ]
                     ]
@@ -180,8 +195,13 @@ async def play(_, message: Message):
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🗯",
-                            url=f"https://t.me/masukajaudhh")
+                            text="𝗣𝗔𝗡𝗗𝗨𝗔𝗡 📖",
+                            url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
+
+                ],[
+                    InlineKeyboardButton(
+                            text="• 𝗢𝗪𝗡𝗘𝗥 𝗚𝗕 | 𝗠𝗨𝗦𝗜𝗞 𝗕𝗢𝗧 •",
+                            url=f"https://t.me/GB_03101999")
 
                         ]
                     ]
@@ -231,8 +251,13 @@ async def play(_, message: Message):
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🗯",
-                            url=f"https://t.me/masukajaudhh")
+                            text="𝗣𝗔𝗡𝗗𝗨𝗔𝗡 📖",
+                            url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
+
+                ],[
+                    InlineKeyboardButton(
+                            text="• 𝗢𝗪𝗡𝗘𝗥 𝗚𝗕 | 𝗠𝗨𝗦𝗜𝗞 𝗕𝗢𝗧 •",
+                            url=f"https://t.me/GB_03101999")
 
                     ]
                 ]
