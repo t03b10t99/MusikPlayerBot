@@ -94,16 +94,16 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🎁 𝗗𝗢𝗡𝗔𝗦𝗜",
+                        text="🎁 ᴅᴏɴᴀsɪ",
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="𝗣𝗔𝗡𝗗𝗨𝗔𝗡 📖",
+                            text="ᴘᴀɴᴅᴜᴀɴ 📖",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
                 ],[
                     InlineKeyboardButton(
-                            text="• 𝗢𝗪𝗡𝗘𝗥 𝗚𝗕 | 𝗠𝗨𝗦𝗜𝗞 𝗕𝗢𝗧 •",
+                            text="• ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ •",
                             url=f"https://t.me/GB_03101999")
                    
                 ]
@@ -129,16 +129,16 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                        text="🎁 𝗗𝗢𝗡𝗔𝗦𝗜",
+                        text="🎁 ᴅᴏɴᴀsɪ",
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="𝗣𝗔𝗡𝗗𝗨𝗔𝗡 📖",
+                            text="ᴘᴀɴᴅᴜᴀɴ 📖",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
                 ],[
                     InlineKeyboardButton(
-                            text="• 𝗢𝗪𝗡𝗘𝗥 𝗚𝗕 | 𝗠𝗨𝗦𝗜𝗞 𝗕𝗢𝗧 •",
+                            text="• ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ •",
                             url=f"https://t.me/GB_03101999")
 
                     ]
@@ -167,16 +167,16 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                        text="🎁 𝗗𝗢𝗡𝗔𝗦𝗜",
+                        text="🎁 ᴅᴏɴᴀsɪ",
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="𝗣𝗔𝗡𝗗𝗨𝗔𝗡 📖",
+                            text="ᴘᴀɴᴅᴜᴀɴ 📖",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
                 ],[
                     InlineKeyboardButton(
-                            text="• 𝗢𝗪𝗡𝗘𝗥 𝗚𝗕 | 𝗠𝗨𝗦𝗜𝗞 𝗕𝗢𝗧 •",
+                            text="• ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ •",
                             url=f"https://t.me/GB_03101999")
 
                         ]
@@ -191,16 +191,16 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                        text="🎁 𝗗𝗢𝗡𝗔𝗦𝗜",
+                        text="🎁 ᴅᴏɴᴀsɪ",
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="𝗣𝗔𝗡𝗗𝗨𝗔𝗡 📖",
+                            text="ᴘᴀɴᴅᴜᴀɴ 📖",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
                 ],[
                     InlineKeyboardButton(
-                            text="• 𝗢𝗪𝗡𝗘𝗥 𝗚𝗕 | 𝗠𝗨𝗦𝗜𝗞 𝗕𝗢𝗧 •",
+                            text="• ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ •",
                             url=f"https://t.me/GB_03101999")
 
                         ]
@@ -247,16 +247,16 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                        text="🎁 𝗗𝗢𝗡𝗔𝗦𝗜",
+                        text="🎁 ᴅᴏɴᴀsɪ",
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="𝗣𝗔𝗡𝗗𝗨𝗔𝗡 📖",
+                            text="ᴘᴀɴᴅᴜᴀɴ 📖",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
                 ],[
                     InlineKeyboardButton(
-                            text="• 𝗢𝗪𝗡𝗘𝗥 𝗚𝗕 | 𝗠𝗨𝗦𝗜𝗞 𝗕𝗢𝗧 •",
+                            text="• ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ •",
                             url=f"https://t.me/GB_03101999")
 
                     ]
