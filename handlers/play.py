@@ -86,7 +86,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 @errors
 async def play(_, message: Message):
 
-    lel = await message.reply("**✅ Sedang Memproses**...")
+    lel = await message.reply("**🔍 Sedang Memproses**")
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
 
@@ -94,11 +94,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🎁 ᴅᴏɴᴀsɪ",
+                        text="• ᴅᴏɴᴀsɪ" •,
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="ᴘᴀɴᴅᴜᴀɴ 📖",
+                            text="• ᴘᴀɴᴅᴜᴀɴ •",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
                 ],[
@@ -129,11 +129,11 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                        text="🎁 ᴅᴏɴᴀsɪ",
+                        text="• ᴅᴏɴᴀsɪ •",
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="ᴘᴀɴᴅᴜᴀɴ 📖",
+                            text="• ᴘᴀɴᴅᴜᴀɴ •",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
                 ],[
@@ -167,11 +167,11 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                        text="🎁 ᴅᴏɴᴀsɪ",
+                        text="• ᴅᴏɴᴀsɪ •",
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="ᴘᴀɴᴅᴜᴀɴ 📖",
+                            text="• ᴘᴀɴᴅᴜᴀɴ •",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
                 ],[
@@ -191,11 +191,11 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                        text="🎁 ᴅᴏɴᴀsɪ",
+                        text="• ᴅᴏɴᴀsɪ •",
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="ᴘᴀɴᴅᴜᴀɴ 📖",
+                            text="• ᴘᴀɴᴅᴜᴀɴ •",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
                 ],[
@@ -210,7 +210,7 @@ async def play(_, message: Message):
         await generate_cover(requested_by, title, views, duration, thumbnail)     
         file_path = await converter.convert(youtube.download(url))
     else:
-        await lel.edit("**🔎 Mencari Musik**")
+        await lel.edit("**🔍 Menemukan Musik**")
         sender_id = message.from_user.id
         user_id = message.from_user.id
         sender_name = message.from_user.first_name
@@ -221,7 +221,7 @@ async def play(_, message: Message):
         for i in message.command[1:]:
             query += ' ' + str(i)
         print(query)
-        await lel.edit("**▶️ Memutar musik**")
+        await lel.edit("**▶️ Memutar Musik**")
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
@@ -247,11 +247,11 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                        text="🎁 ᴅᴏɴᴀsɪ",
+                        text="• ᴅᴏɴᴀsɪ •",
                         url="https://saweria.co/DonasiUntukAdmin"),
 
                     InlineKeyboardButton(
-                            text="ᴘᴀɴᴅᴜᴀɴ 📖",
+                            text="• ᴘᴀɴᴅᴜᴀɴ •",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
                 ],[
