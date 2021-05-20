@@ -275,7 +275,6 @@ async def play(_, message: Message):
         message.from_user.mention()
         ),
     )
-        reply_markup=keyboard)
         os.remove("final.png")
         return await lel.delete()
     else:
