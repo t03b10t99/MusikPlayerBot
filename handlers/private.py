@@ -37,7 +37,7 @@ Tapi Percayalah di setiap tangis pasti akan ada kebahagiaan yang akan datang"
 
 @Client.on_message(filters.command("start@GB_MusikBot") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**👋🏻 Hai, Terimakasih telah mengundang saya\n👇🏻 Silahkan klik tombol Panduan dibawah**""",
+      await message.reply_text("""**✅ Saya Sudah Online\n👤 Jangan Sampai Lupa Masukin Assistent Saya: @GB_Musik**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
