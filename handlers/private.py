@@ -4,9 +4,11 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from config import BOT_NAME as bn
 from helpers.filters import other_filters2
 
+GROUP_MUSIC_PROBOT_IMG= "https://telegra.ph/file/625c18e0b9335553152ac.jpg"
 
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
+    await message.reply_photo(GROUP_MUSIC_PROBOT_IMG)
     await message.reply_text(
         f"""👋🏻 Hai {message.from_user.mention}
 
@@ -20,15 +22,16 @@ Tapi Percayalah di setiap tangis pasti akan ada kebahagiaan yang akan datang"
         reply_markup=InlineKeyboardMarkup(
             [
                 [
+
+                    ) 
+                    InlineKeyboardButton(
+                        " ➕ 𝗧𝗮𝗺𝗯𝗮𝗵𝗸𝗮𝗻 𝗞𝗲 𝗚𝗿𝘂𝗽 ➕", url="http://t.me/GB_MusikBot?startgroup=start"
+                ],[
                     InlineKeyboardButton(
                         "🎁 𝗗𝗼𝗻𝗮𝘀𝗶", url="https://saweria.co/DonasiUntukAdmin"
                     ),
                     InlineKeyboardButton(
                         "𝗦𝘂𝗽𝗽𝗼𝗿𝘁 🗯️", url="https://t.me/GB_03101999"
-                    )
-                ],[ 
-                    InlineKeyboardButton(
-                        " ➕ 𝗧𝗮𝗺𝗯𝗮𝗵𝗸𝗮𝗻 𝗞𝗲 𝗚𝗿𝘂𝗽 ➕", url="http://t.me/GB_MusikBot?startgroup=start"
                     )]
             ]
         ),
