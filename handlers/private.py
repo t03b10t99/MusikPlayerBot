@@ -24,15 +24,14 @@ Tapi Percayalah di setiap tangis pasti akan ada kebahagiaan yang akan datang"
                 [
 
                     InlineKeyboardButton(
-                        " ➕ 𝗧𝗮𝗺𝗯𝗮𝗵𝗸𝗮𝗻 𝗞𝗲 𝗚𝗿𝘂𝗽 ➕", url="http://t.me/GB_MusikBot?startgroup=start"
-
-                ],[
+                        "➗ Tambahkan Ke Grup➗", url="http://t.me/GB_MusikBot?startgroup=start")
+                  ],[
                     InlineKeyboardButton(
-                        "🎁 𝗗𝗼𝗻𝗮𝘀𝗶", url="https://saweria.co/DonasiUntukAdmin"
+                        "💳 Donasi", url="https://saweria.co/DonasiUntukAdmin"
                     ),
                     InlineKeyboardButton(
-                        "𝗦𝘂𝗽𝗽𝗼𝗿𝘁 🗯️", url="https://t.me/GB_03101999"
-                    )]
+                        "Support 💬", url="https://t.me/GB_03101999"
+                    )
             ]
         ),
      disable_web_page_preview=True
