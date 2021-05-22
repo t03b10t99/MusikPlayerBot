@@ -11,9 +11,11 @@ GROUP_MUSIC_PROBOT_IMG= "https://telegra.ph/file/625c18e0b9335553152ac.jpg"
 async def start(_, message: Message):
     await message.reply_photo(GROUP_MUSIC_PROBOT_IMG)
     await message.reply_text(
-        f"""👋🏻 Hai, Saya {bn} 🎵
+        f"""👋🏻 Hai {message.from_user.mention}
 
-
+Saya adalah robot manager grup dan saya juga bisa memainkan musik di grup obrolan suara anda
+Silahkan baca panduan bot musik [klik disini](https://telegra.ph/GB-MUSIK-BOT-05-12)
+Silahkan tekan > /help untuk melihat fitur manager saya
 ━─━─━─━─━─━─━─━─━─━─━
 Kutipan: "Ada waktunya kita akan terpuruk dan menangis.
 Tapi Percayalah di setiap tangis pasti akan ada kebahagiaan yang akan datang"
