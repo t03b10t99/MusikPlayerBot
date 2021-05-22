@@ -23,7 +23,7 @@ Tapi Percayalah di setiap tangis pasti akan ada kebahagiaan yang akan datang"
             [
                 [
 
-                    ) 
+                    )
                     InlineKeyboardButton(
                         " ➕ 𝗧𝗮𝗺𝗯𝗮𝗵𝗸𝗮𝗻 𝗞𝗲 𝗚𝗿𝘂𝗽 ➕", url="http://t.me/GB_MusikBot?startgroup=start"
                 ],[
