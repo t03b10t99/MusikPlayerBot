@@ -86,7 +86,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 @errors
 async def play(_, message: Message):
 
-    lel = await message.reply("**🔍 Sedang Memproses**")
+    lel = await message.reply("**🔄 Sedang Memproses**")
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
 
@@ -210,7 +210,7 @@ async def play(_, message: Message):
         await generate_cover(requested_by, title, views, duration, thumbnail)     
         file_path = await converter.convert(youtube.download(url))
     else:
-        await lel.edit("**🔍 Menemukan Musik**")
+        await lel.edit("**🔍 Sedang Mencari Musik**")
         sender_id = message.from_user.id
         user_id = message.from_user.id
         sender_name = message.from_user.first_name
@@ -221,7 +221,7 @@ async def play(_, message: Message):
         for i in message.command[1:]:
             query += ' ' + str(i)
         print(query)
-        await lel.edit("**▶️ Memutar Musik**")
+        await lel.edit("**▶️ Sedang Memperoses Memutar Musik**")
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
@@ -238,7 +238,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             lel.edit(
-                "❌ Lagu tidak ditemukan.\n\nCoba lagu lain atau mungkin mengejanya dengan benar."
+                "**❌ Musik Yang Dicari Tidak Bisa Ditemukan\nSilahkan Periksa Kembali Judul Musik Yang Dicari"
             )
             print(str(e))
             return
