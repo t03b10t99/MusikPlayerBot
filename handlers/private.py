@@ -33,6 +33,7 @@ Tapi Percayalah di setiap tangis pasti akan ada kebahagiaan yang akan datang"
                         "Support 💬", url="https://t.me/GB_03101999"
                     )
             ]
+
      disable_web_page_preview=True
     )
 
