@@ -14,7 +14,7 @@ async def start(_, message: Message):
         f"""👋🏻 Hai {message.from_user.mention}
 
 Saya adalah robot manager grup dan saya juga bisa memainkan musik di grup obrolan suara anda
-Silahkan baca panduan bot musik [klik disini](https://telegra.ph/GB-MUSIK-BOT-05-12)
+Silahkan baca panduan cara menggunakan bot musik [klik disini](https://telegra.ph/GB-MUSIK-BOT-05-12)
 Silahkan tekan > /help untuk melihat fitur manager saya
 ━─━─━─━─━─━─━─━─━─━─━
 Kutipan: "Ada waktunya kita akan terpuruk dan menangis.
@@ -30,7 +30,7 @@ Tapi Percayalah di setiap tangis pasti akan ada kebahagiaan yang akan datang"
                         "💳 ᴅᴏɴᴀsɪ", url="https://saweria.co/DonasiUntukAdmin"
                     ),
                     InlineKeyboardButton(
-                        "sᴜᴘᴘʀᴛ 💬", url="https://t.me/GB_03101999"
+                        "sᴜᴘᴘᴏʀᴛ 💬", url="https://t.me/GB_03101999"
                     )]
             ]
         ),
