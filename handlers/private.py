@@ -14,8 +14,8 @@ async def start(_, message: Message):
         f"""👋🏻 Hai {message.from_user.mention}
 
 Saya adalah robot manager grup dan saya juga bisa memainkan musik di grup obrolan suara anda
-Silahkan baca panduan cara menggunakan bot musik [klik disini](https://telegra.ph/GB-MUSIK-BOT-05-12)
-Silahkan tekan > /help untuk melihat fitur manager saya
+Silahkan baca panduan cara menggunakan bot musik [klik sini](https://telegra.ph/GB-MUSIK-BOT-05-12)
+Silahkan tekan > /help untuk melihat fitur-fitur manager saya
 ━─━─━─━─━─━─━─━─━─━─━
 Kutipan: "Ada waktunya kita akan terpuruk dan menangis.
 Tapi Percayalah di setiap tangis pasti akan ada kebahagiaan yang akan datang"
