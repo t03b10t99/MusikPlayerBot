@@ -36,7 +36,7 @@ async def resume(_, message: Message):
         await message.reply_text("**❌ Tidak ada musik yang sedang dijeda**")
     else:
         callsmusic.pytgcalls.resume_stream(message.chat.id)
-        await message.reply_text("**▶️ Melanjutkan pemutaran lagu yang dijeda**")
+        await message.reply_text("**▶️ Melanjutkan pemutaran musik yang dijeda**")
 
 
 @Client.on_message(command("end") & other_filters)
