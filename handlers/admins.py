@@ -18,10 +18,10 @@ async def pause(_, message: Message):
     ) or (
             callsmusic.pytgcalls.active_calls[message.chat.id] == 'paused'
     ):
-        await message.reply_text("**❗ Tidak ada yang sedang diputar‌‌**\nAtau bot sedang ngebug")
+        await message.reply_text("**❌ Tidak ada pemutaran musik untuk dijeda**")
     else:
         callsmusic.pytgcalls.pause_stream(message.chat.id)
-        await message.reply_text("**⏸ Lagu dijeda.**\n\n• Untuk melanjutkan pemutaran, gunakan perintah » /resume")
+        await message.reply_text("**⏸ Menjeda musik**")
 
 
 @Client.on_message(command("resume") & other_filters)
@@ -33,10 +33,10 @@ async def resume(_, message: Message):
     ) or (
             callsmusic.pytgcalls.active_calls[message.chat.id] == 'playing'
     ):
-        await message.reply_text("**❗ Tidak ada yang dijeda.**\nAtau bot sedang ngebug")
+        await message.reply_text("**❌ Tidak ada musik yang sedang dijeda**")
     else:
         callsmusic.pytgcalls.resume_stream(message.chat.id)
-        await message.reply_text("**▶️ Melanjutkan pemutaran lagu yang dijeda.**\n\n• Untuk menjeda pemutaran, gunakan perintah » /pause")
+        await message.reply_text("**▶️ Melanjutkan pemutaran lagu yang dijeda**")
 
 
 @Client.on_message(command("end") & other_filters)
@@ -44,7 +44,7 @@ async def resume(_, message: Message):
 @authorized_users_only
 async def stop(_, message: Message):
     if message.chat.id not in callsmusic.pytgcalls.active_calls:
-        await message.reply_text("**❗ Tidak ada yang diputar.**\nAtau bot sedang ngebug")
+        await message.reply_text("**❌ Tidak ada musik yang sedang diputar")
     else:
         try:
             callsmusic.queues.clear(message.chat.id)
@@ -60,7 +60,7 @@ async def stop(_, message: Message):
 @authorized_users_only
 async def skip(_, message: Message):
     if message.chat.id not in callsmusic.pytgcalls.active_calls:
-        await message.reply_text("**❗ Tidak ada yang diputar untuk dilewati‌‌.**\nAtau bot sedang ngebug!")
+        await message.reply_text("**❌ Tidak ada musik di antrian untuk dilewati**")
     else:
         callsmusic.queues.task_done(message.chat.id)
 
@@ -72,4 +72,4 @@ async def skip(_, message: Message):
                 callsmusic.queues.get(message.chat.id)["file"]
             )
 
-        await message.reply_text("**⏭ Anda telah melompat ke lagu berikutnya**")
+        await message.reply_text("**⏩ Anda telah melompat ke lagu berikutnya**")
