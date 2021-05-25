@@ -101,6 +101,10 @@ async def play(_, message: Message):
                             text="• ᴘᴀɴᴅᴜᴀɴ •",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
+                ],[
+                    InlineKeyboardButton(
+                            text="• ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ •",
+                            url=f"https://t.me/GB_03101999")
                    
                 ]
             ]
@@ -131,6 +135,11 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="• ᴘᴀɴᴅᴜᴀɴ •",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
+
+                ],[
+                    InlineKeyboardButton(
+                            text="• ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ •",
+                            url=f"https://t.me/GB_03101999")
 
                     ]
                 ]
@@ -165,6 +174,11 @@ async def play(_, message: Message):
                             text="• ᴘᴀɴᴅᴜᴀɴ •",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
+                ],[
+                    InlineKeyboardButton(
+                            text="• ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ •",
+                            url=f"https://t.me/GB_03101999")
+
                         ]
                     ]
                 )
@@ -183,6 +197,11 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="• ᴘᴀɴᴅᴜᴀɴ •",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
+
+                ],[
+                    InlineKeyboardButton(
+                            text="• ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ •",
+                            url=f"https://t.me/GB_03101999")
 
                         ]
                     ]
@@ -219,7 +238,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             lel.edit(
-                "**❌ Musik Yang Dicari Tidak Bisa Ditemukan\nSilahkan Periksa Kembali Judul Musik Yang Dicari"
+                "**❌ Musik Yang Dicari Tidak Bisa Ditemukan\nSilahkan masukkin judul musik dengan lebih ditail****"
             )
             print(str(e))
             return
@@ -235,6 +254,10 @@ async def play(_, message: Message):
                             text="• ᴘᴀɴᴅᴜᴀɴ •",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
+                ],[
+                    InlineKeyboardButton(
+                            text="• ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ •",
+                            url=f"https://t.me/GB_03101999")
 
                     ]
                 ]
