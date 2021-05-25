@@ -41,11 +41,11 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "**❌ Lagu Yang Dicari Tidak Ditemukan\nSilahkan Periksa Kembali Judul Lagu Yang Dicari**"
+            "**❌ Lagu Yang Dicari Tidak Ditemukan\nSilahkan masukkan judul musik dengan lebih detail**"
         )
         print(str(e))
         return
-    m.edit("**✅ Sedang Mendownload Lagu Oleh:** [ɢᴏᴏᴅ ʙᴏʏs](https://t.me/GB_03101999)")
+    m.edit("**🔄 Sedang Mendownload Lagu**")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
