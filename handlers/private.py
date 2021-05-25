@@ -11,13 +11,13 @@ GROUP_MUSIC_PROBOT_IMG= "https://telegra.ph/file/625c18e0b9335553152ac.jpg"
 async def start(_, message: Message):
     await message.reply_photo(GROUP_MUSIC_PROBOT_IMG)
     await message.reply_text(
-        f"""👋🏻 Hai {message.from_user.mention} saya {bn}
+        f"""**👋🏻 Hai {message.from_user.mention} saya {bn}
 
-Saya bisa memutar musik di grup obrolan suara anda
-Silahkan baca panduan cara menggunakan bot musik [klik sini](https://telegra.ph/GB-MUSIK-BOT-05-12)
+Bot musik adalah bot sumber terbuka yang memungkinkan Anda memutar musik di grup telegram Anda.
+Tidak mengetahui cara memakainya? Baca [panduan](https://telegra.ph/GB-MUSIK-BOT-05-12) pemakaian agar langsung memahami tanpa bertanya!
 ━─━─━─━─━─━─━─━─━─━─━
 Kutipan: Ada waktunya kita akan terpuruk dan menangis.
-Tapi Percayalah di setiap tangis pasti akan ada kebahagiaan yang akan datang
+Tapi Percayalah di setiap tangis pasti akan ada kebahagiaan yang akan datang**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -36,14 +36,14 @@ Tapi Percayalah di setiap tangis pasti akan ada kebahagiaan yang akan datang
      disable_web_page_preview=True
     )
 
-@Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command("start@GB_MusikBot") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**ɢʙ | ᴍᴜsɪᴋ Player Online ✅**""",
+      await message.reply_text("""**👋🏻 Hai perkenalkan saya ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ\n👥 Jangan lupa masukin @GB_Musik**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🎁 ᴅᴏɴᴀsɪ", url="https://saweria.co/DonasiUntukAdmin")
+                        "🎟️ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/GB_03101999")
                 ]
             ]
         )
