@@ -101,8 +101,6 @@ async def play(_, message: Message):
                             text="• ᴘᴀɴᴅᴜᴀɴ •",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
-                ],[
-                    InlineKeyboardButton("• ᴛᴜᴛᴜᴘ •",'start')
                    
                 ]
             ]
@@ -133,9 +131,6 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="• ᴘᴀɴᴅᴜᴀɴ •",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
-
-                ],[
-                    InlineKeyboardButton("• ᴛᴜᴛᴜᴘ •",'start')
 
                     ]
                 ]
@@ -170,9 +165,6 @@ async def play(_, message: Message):
                             text="• ᴘᴀɴᴅᴜᴀɴ •",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
-                ],[
-                    InlineKeyboardButton("• ᴛᴜᴛᴜᴘ •",'start')
-
                         ]
                     ]
                 )
@@ -191,9 +183,6 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="• ᴘᴀɴᴅᴜᴀɴ •",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
-
-                ],[
-                    InlineKeyboardButton("• ᴛᴜᴛᴜᴘ •",'start')
 
                         ]
                     ]
@@ -246,8 +235,6 @@ async def play(_, message: Message):
                             text="• ᴘᴀɴᴅᴜᴀɴ •",
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
-                ],[
-                    InlineKeyboardButton("• ᴛᴜᴛᴜᴘ •",'start') 
 
                     ]
                 ]
