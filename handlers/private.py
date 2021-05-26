@@ -35,7 +35,7 @@ Tapi Percayalah Di Setiap Tangis Pasti Akan Ada Kebahagiaan Yang Akan Datang**
                         "💳 ᴅᴏɴᴀsɪ", url="https://saweria.co/DonasiUntukAdmin"
                     ),
                     InlineKeyboardButton(
-                        "sᴜᴘᴘᴏʀᴛ 💬", url="https://t.me/GB_03101999"
+                        "sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ 💬", url="https://t.me/GB_03101999"
                     )]
             ]
         ),
