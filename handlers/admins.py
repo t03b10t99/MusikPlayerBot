@@ -44,7 +44,7 @@ async def resume(_, message: Message):
 @authorized_users_only
 async def stop(_, message: Message):
     if message.chat.id not in callsmusic.pytgcalls.active_calls:
-        await message.reply_text("**❌ Tidak ada musik yang sedang diputar")
+        await message.reply_text("**❌ Tidak ada musik yang sedang diputar**")
     else:
         try:
             callsmusic.queues.clear(message.chat.id)
@@ -72,4 +72,4 @@ async def skip(_, message: Message):
                 callsmusic.queues.get(message.chat.id)["file"]
             )
 
-        await message.reply_text("**⏩ Anda telah melompat ke lagu berikutnya**")
+        await message.reply_text("**⏭ Anda telah melompat ke lagu berikutnya**")
