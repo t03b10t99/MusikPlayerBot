@@ -13,7 +13,7 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**┗┓ Hai {message.from_user.mention} Nama Saya Adalah {bn} ┏┛
 
-Saya Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah
+Saya Bot Music Group, Yang Dapat Memutar Musik Di Voice Chat Group Dengan Cara Yang Mudah
 Saya Memiliki Banyak Fitur Praktis Seperti :
 ┏━━━━━━━━━━━━━━
 ┣• Memutar Musik.
