@@ -22,7 +22,7 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ┗━━━━━━━━━━━━━━
 ❃ Cara Menggunakan: [BACA DISINI](https://telegra.ph/GB-MUSIK-BOT-05-12)
 ━━━━━━━━━━━━━━━
-Kutipan: Ada Waktunya kita akan terpuruk dan menangis.
+Kutipan: Ada Waktunya Kita Akan Terpuruk Dan Menangis.
 Tapi Percayalah Di Setiap Tangis Pasti Akan Ada Kebahagiaan Yang Akan Datang**
         """,
         reply_markup=InlineKeyboardMarkup(
