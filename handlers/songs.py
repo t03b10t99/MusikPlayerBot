@@ -40,7 +40,7 @@ def a(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply('`Searching... Please Wait...`')
+    m = message.reply('`**🔎 Sedang Mencari Musik**`')
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = []
@@ -71,21 +71,21 @@ def a(client, message):
 
         except Exception as e:
             print(e)
-            m.edit('**Found Literary Noting. Please Try Another Song or Use Correct Spelling!**')
+            m.edit('**❌ Musik tidak ditemukan. Silakan Coba Lagu Lain atau Gunakan Ejaan yang Benar!**')
             return
     except Exception as e:
         m.edit(
-            "**Enter Song Name with Command!**"
+            "**✅ Masukkan Nama Lagu dengan Perintah!**"
         )
         print(str(e))
         return
-    m.edit("`Uploading... Please Wait...`")
+    m.edit("`**🔄 Sedang Mendownload Lagu**`")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f'**🏷 <b>Judul:**</b> <a href="{link}">{title}</a>\n**⏳ <b>Durasi:**</b> <code>{duration}</code>\n**👀 <b>Penonton:**</b> <code>{views}</code>\n**🎧 <b>Diunggah oleh</b> <a href="https://t.me/GB_MusikBot">ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ</a>'
+        rep = f'**🏷 <b>Judul:</b> <a href="{link}">{title}</a>\n⏳ <b>Durasi:</b> <code>{duration}</code>\n👀 <b>Penonton:</b> <code>{views}</code>\n🎧 <b>Diunggah oleh</b> <a href="https://t.me/GB_MusikBot">ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ</a>**'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
