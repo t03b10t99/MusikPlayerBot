@@ -71,7 +71,7 @@ def a(client, message):
 
         except Exception as e:
             print(e)
-            m.edit(**❌ Musik tidak ditemukan. Silakan Coba Lagu Lain atau Gunakan Ejaan yang Benar!**')
+            m.edit('**❌ Musik tidak ditemukan. Silakan Coba Lagu Lain atau Gunakan Ejaan yang Benar!**')
             return
     except Exception as e:
         m.edit(
