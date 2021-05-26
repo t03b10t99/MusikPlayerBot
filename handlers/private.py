@@ -50,6 +50,10 @@ async def gstart(_, message: Message):
                 [
                     InlineKeyboardButton(
                         "🎟️ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/GB_03101999")
+                    ),
+                    InlineKeyboardButton(
+                        "ᴅᴏɴᴀsɪ ", url="https://saweria.co/DonasiUntukAdmin"
+
                 ]
             ]
         )
