@@ -17,8 +17,8 @@ Saya Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Dengan cara ya
 Saya Memiliki Banyak Fitur Praktis Seperti :
 ┏━━━━━━━━━━━━━━
 ┣• Memutar Musik.
-┣• Mendownload Lagu.
-┣• Mencari Lagu Yang ingin di Putar atau di Download.
+┣• Mendownload Musik.
+┣• Mencari Musik Yang Ingin Di Putar Atau Di Download.
 ┗━━━━━━━━━━━━━━
 ❃ Cara Menggunakan: [BACA DISINI](https://telegra.ph/GB-MUSIK-BOT-05-12)
 ━━━━━━━━━━━━━━━
