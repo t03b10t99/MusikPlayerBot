@@ -79,13 +79,13 @@ def a(client, message):
         )
         print(str(e))
         return
-    m.edit("**🔄 Sedang Mendownload Lagu**")
+    m.edit("**🔄 Sedang Mendownload Musik**")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f'🏷 <b>**Judul:**</b> <a href="{link}">{title}</a>\n⏳ <b>**Durasi:**</b> <code>{duration}</code>\n👀 <b>**Penonton:**</b> <code>{views}</code>\n🎧 <b>**Diunggah oleh:**</b> <a href="https://t.me/GB_03101999">ɢᴏᴏᴅ ʙᴏʏs</a>'
+        rep = f'🏷 <b>*Judul:*</b> <a href="{link}">{title}</a>\n⏳ <b>*Durasi:*</b> <code>{duration}</code>\n👀 <b>*Penonton:*</b> <code>{views}</code>\n🎧 <b>*Diunggah oleh:*</b> <a href="https://t.me/GB_03101999">ɢᴏᴏᴅ ʙᴏʏs</a>'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
