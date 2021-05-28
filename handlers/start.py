@@ -20,7 +20,7 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ┣• Mendownload Musik.
 ┣• Mencari Musik Yang Ingin Di Putar Atau Di Download.
 ┗━━━━━━━━━━━━━━
-❃ Cara Menggunakan: [BACA DISINI](https://telegra.ph/GB-MUSIK-BOT-05-12)
+❃ Cara Menggunakan: > /help
 ━━━━━━━━━━━━━━━
 Kutipan: Ada Waktunya Kita Akan Terpuruk Dan Menangis.
 Tapi Percayalah Di Setiap Tangis Pasti Akan Ada Kebahagiaan Yang Akan Datang**
