@@ -112,11 +112,6 @@ def a(client, message):
 
     urlissed = get_text(message)
 
-            f"`Mendapatkan {urlissed} Dari Youtube. Mohon Tunggu Sebentar.`")
-    if not urlissed:
-        await pablo.edit("Syntax Tidak Valid, Silahkan Periksa Command <Perintah> Help Untuk Mengetahui Lebih Lanjut.")
-        return
-    
     search = SearchVideos(f"{urlissed}", offset=1, mode="dict", max_results=1)
     mi = search.result()
     mio = mi["search_result"]
