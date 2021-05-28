@@ -11,13 +11,13 @@ GROUP_MUSIC_PROBOT_IMG= "https://telegra.ph/file/625c18e0b9335553152ac.jpg"
 async def start(_, message: Message):
     await message.reply_photo(GROUP_MUSIC_PROBOT_IMG)
     await message.reply_text(
-        f"""**┗┓ Hai {message.from_user.mention} Nama Saya Adalah {bn} ┏┛
+        f"""**┗┓ Hai {message.from_user.mention} Nama Saya Adalah {bn} ┏┛**
 
 **Bagaimana Cara Menggunakannya?**
 1) Pertama tambahkan bot @GB_MusikBot ke grup Anda dan berikan hak admin penuh
 2) Kemudian tambahkan assistent @GB_Musik ke grup Anda dan berikan hak admin
 3) Setelah itu ikuti perintah di bawah ini.
-PERINTAH UNTUK SEMUA ANGGOTA GRUP
+**PERINTAH UNTUK SEMUA ANGGOTA GRUP**
 • /play - balas url youtube atau file lagu untuk memutar lagu
 • /play [song name] - putar lagu yang Anda minta
 • /song [song name] - unduh lagu yang Anda inginkan dengan cepat
