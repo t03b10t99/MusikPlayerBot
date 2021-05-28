@@ -108,9 +108,8 @@ def a(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
+    m = message.reply('**🔎 Sedang Mencari Musik**')
 
-        await message.reply_text("Download Sedang Berlangsung, Coba Beberapa Saat Lagi.")
-        return
 
     urlissed = get_text(message)
 
