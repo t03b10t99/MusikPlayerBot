@@ -5,7 +5,7 @@ from config import BOT_NAME as bn
 from helpers.filters import other_filters2
 
 
-@Client.on_message(filters.command("help@GB_MusikBot") & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command("help") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
       await message.reply_text("""**Bagaimana Cara Menggunakannya?**
 1) Pertama tambahkan bot @GB_MusikBot ke grup Anda dan berikan hak admin penuh
