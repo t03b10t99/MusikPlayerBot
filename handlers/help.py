@@ -23,7 +23,7 @@ PERINTAH UNTUK SEMUA ANGGOTA GRUP
 • /song [song name] - unduh lagu yang Anda inginkan dengan cepat
 • /search [song name] - Cari video di youtube dengan detail
 
-PERINTAH UNTUK SEMUA ADMIN GRUP
+**PERINTAH UNTUK SEMUA ADMIN GRUP**
 • /pause - jeda pemutaran lagu
 • /resume - lanjutkan pemutaran lagu
 • /skip - mainkan lagu berikutnya
