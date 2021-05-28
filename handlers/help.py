@@ -13,9 +13,9 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**┗┓ Hai {message.from_user.mention} Nama Saya Adalah {bn} ┏┛
 
-**Bagaimana Cara Menggunakannya?
-1) Pertama tambahkan bot GB_MusikBot ke grup Anda dan berikan hak admin penuh
-2) Kemudian tambahkan assistent GB_Musik ke grup Anda dan berikan hak admin
+**Bagaimana Cara Menggunakannya?**
+1) Pertama tambahkan bot @GB_MusikBot ke grup Anda dan berikan hak admin penuh
+2) Kemudian tambahkan assistent @GB_Musik ke grup Anda dan berikan hak admin
 3) Setelah itu ikuti perintah di bawah ini.
 PERINTAH UNTUK SEMUA ANGGOTA GRUP
 • /play - balas url youtube atau file lagu untuk memutar lagu
