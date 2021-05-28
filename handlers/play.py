@@ -102,9 +102,7 @@ async def play(_, message: Message):
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
                 ],[
-                    InlineKeyboardButton(
-                            text="• ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ •",
-                            url=f"https://t.me/GB_03101999")
+                    InlineKeyboardButton("❌ Close", "cls")],
                    
                 ]
             ]
@@ -137,9 +135,7 @@ async def play(_, message: Message):
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
                 ],[
-                    InlineKeyboardButton(
-                            text="• ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ •",
-                            url=f"https://t.me/GB_03101999")
+                    InlineKeyboardButton("❌ Close", "cls")],
 
                     ]
                 ]
@@ -175,9 +171,7 @@ async def play(_, message: Message):
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
                 ],[
-                    InlineKeyboardButton(
-                            text="• ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ •",
-                            url=f"https://t.me/GB_03101999")
+                    InlineKeyboardButton("❌ Close", "cls")],
 
                         ]
                     ]
@@ -199,9 +193,7 @@ async def play(_, message: Message):
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
                 ],[
-                    InlineKeyboardButton(
-                            text="• ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ •",
-                            url=f"https://t.me/GB_03101999")
+                    InlineKeyboardButton("❌ Close", "cls")],
 
                         ]
                     ]
@@ -255,9 +247,7 @@ async def play(_, message: Message):
                             url=f"https://telegra.ph/GB-MUSIK-BOT-05-12")
 
                 ],[
-                    InlineKeyboardButton(
-                            text="• ᴏᴡɴᴇʀ ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ •",
-                            url=f"https://t.me/GB_03101999")
+                    InlineKeyboardButton("❌ Close", "cls")],
 
                     ]
                 ]
