@@ -103,7 +103,12 @@ def a(client, message):
         print(e)
 
 @Client.on_message(filters.command(["vsong", "video"]))
-    if is_downloading:
+def a(client, message):
+    query = ''
+    for i in message.command[1:]:
+        query += ' ' + str(i)
+    print(query)
+
         await message.reply_text("Download Sedang Berlangsung, Coba Beberapa Saat Lagi.")
         return
 
