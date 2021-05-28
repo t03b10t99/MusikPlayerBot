@@ -5,7 +5,7 @@ from config import BOT_NAME as bn
 from helpers.filters import other_filters2
 
 
-@Client.on_message(filters.command("start@GB_MusikBot") & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
       await message.reply_text("""**👋🏻 Hai perkenalkan saya ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ\n👥 Jangan lupa masukin @GB_Musik**""",
       reply_markup=InlineKeyboardMarkup(
