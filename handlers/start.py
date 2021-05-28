@@ -57,19 +57,3 @@ async def gstart(_, message: Message):
             ]
         )
    )
-
-@Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
-async def gstart(_, message: Message):
-      await message.reply_text("""**👋🏻 Hai perkenalkan saya ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ\n👥 Jangan lupa masukin @GB_Musik**""",
-      reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "💬 sᴜᴘᴘᴏʀᴛ", url="https://t.me/GB_03101999"),
-
-                    InlineKeyboardButton(
-                        "ᴅᴏɴᴀsɪ 🎁", url="https://saweria.co/DonasiUntukAdmin")
-                ]
-            ]
-        )
-   )
