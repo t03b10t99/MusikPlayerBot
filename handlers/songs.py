@@ -103,7 +103,6 @@ def a(client, message):
         print(e)
 
 @Client.on_message(filters.command(["vsong", "video"]))
-async def ytmusic(client,message: Message):
     global is_downloading
     if is_downloading:
         await message.reply_text("Download Sedang Berlangsung, Coba Beberapa Saat Lagi.")
