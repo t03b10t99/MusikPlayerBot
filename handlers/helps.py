@@ -34,11 +34,6 @@ async def gstart(_, message: Message):
 
                     InlineKeyboardButton(
                         "ᴅᴏɴᴀsɪ 🎁", url="https://saweria.co/DonasiUntukAdmin")
-                ]
-            ]
-        )
-   )
-
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
