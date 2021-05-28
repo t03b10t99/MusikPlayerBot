@@ -113,7 +113,6 @@ def a(client, message):
 
     urlissed = get_text(message)
 
-    pablo =  await client.send_message(
             message.chat.id,
             f"`Mendapatkan {urlissed} Dari Youtube. Mohon Tunggu Sebentar.`")
     if not urlissed:
