@@ -110,10 +110,8 @@ def a(client, message):
     print(query)
     m = message.reply('**🔎 Sedang Mencari Musik**')
 
-
     urlissed = get_text(message)
 
-            message.chat.id,
             f"`Mendapatkan {urlissed} Dari Youtube. Mohon Tunggu Sebentar.`")
     if not urlissed:
         await pablo.edit("Syntax Tidak Valid, Silahkan Periksa Command <Perintah> Help Untuk Mengetahui Lebih Lanjut.")
