@@ -42,7 +42,7 @@ Tapi Percayalah Di Setiap Tangis Pasti Akan Ada Kebahagiaan Yang Akan Datang**
      disable_web_page_preview=True
     )
 
-@Client.on_message(filters.command(["start@GB_MusikBot", "start"])) & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command("start@GB_MusikBot") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
       await message.reply_text("""**👋🏻 Hai perkenalkan saya ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ\n👥 Jangan lupa masukin @GB_Musik**""",
       reply_markup=InlineKeyboardMarkup(
