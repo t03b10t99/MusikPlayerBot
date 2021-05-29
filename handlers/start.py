@@ -29,7 +29,8 @@ Tapi Percayalah Di Setiap Tangis Pasti Akan Ada Kebahagiaan Yang Akan Datang**
             [
                 [
                     InlineKeyboardButton(
-                        "➗ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ➗", url="http://t.me/GB_MusikBot?startgroup=start")
+                        "➗ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ➗", url="url="t.me/{}?startgroup=true".format(
+                                    context.bot.username
                   ],[
                     InlineKeyboardButton(
                         "🎁 ᴅᴏɴᴀsɪ", url="https://saweria.co/DonasiUntukAdmin"
