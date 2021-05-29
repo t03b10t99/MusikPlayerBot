@@ -1,9 +1,9 @@
-<h2 align="centre">SUJANDRA MUSIK</h2>
+<h2 align="centre">ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ</h2>
 
 ### A bot that can play music on telegram group's voice call
 
 <p align="center">
-  <img src="https://telegra.ph/file/8e012545e353e61211b68.jpg">
+  <img src="https://telegra.ph/file/7feef86e48dd2170e813d.jpg">
 </p>
 
 <h3>Requirements 📝</h3>
