@@ -94,7 +94,7 @@ def a(client, message):
         m.delete()
         message.delete()
     except Exception as e:
-        m.edit('**❗ Terjadi kesalahan. Silakan Laporkan Ini Kepada @GB_03101999 !!**')
+        m.edit('**❗ Terjadi kesalahan. Silakan Laporkan Ini Kepada @Lohanjingg !!**')
         print(e)
     try:
         os.remove(audio_file)
