@@ -100,6 +100,10 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="ᴅᴏɴᴀsɪ 🎁",
                             url=f"https://saweria.co/DonasiUntukAdmin")
+                  ],[
+                    InlineKeyboardButton(
+                        "🔍 ᴄᴀʀɪ ᴍᴜsɪᴋ ᴅɪ ʏᴏᴜᴛᴜʙᴇ 🔎", switch_inline_query_current_chat=""
+                    )
                    
                 ]
             ]
@@ -130,6 +134,10 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="ᴅᴏɴᴀsɪ 🎁",
                             url=f"https://saweria.co/DonasiUntukAdmin")
+                  ],[
+                    InlineKeyboardButton(
+                        "🔍 ᴄᴀʀɪ ᴍᴜsɪᴋ ᴅɪ ʏᴏᴜᴛᴜʙᴇ 🔎", switch_inline_query_current_chat=""
+                    )
                     ]
                 ]
             )
@@ -162,6 +170,10 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="ᴅᴏɴᴀsɪ 🎁",
                             url=f"https://saweria.co/DonasiUntukAdmin")
+                  ],[
+                    InlineKeyboardButton(
+                        "🔍 ᴄᴀʀɪ ᴍᴜsɪᴋ ᴅɪ ʏᴏᴜᴛᴜʙᴇ 🔎", switch_inline_query_current_chat=""
+                    )
 
                         ]
                     ]
@@ -181,6 +193,10 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="ᴅᴏɴᴀsɪ 🎁",
                             url=f"https://saweria.co/DonasiUntukAdmin")
+                  ],[
+                    InlineKeyboardButton(
+                        "🔍 ᴄᴀʀɪ ᴍᴜsɪᴋ ᴅɪ ʏᴏᴜᴛᴜʙᴇ 🔎", switch_inline_query_current_chat=""
+                    )
 
                         ]
                     ]
