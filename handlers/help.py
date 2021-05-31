@@ -14,8 +14,8 @@ async def start(_, message: Message):
         f"""**┗┓ Hai {message.from_user.mention} Nama Saya Adalah {bn} ┏┛**
 
 **BAGAIMANA CARA MENGGUNAKANNYA?**
-1) Pertama Tambahkan Bot @GB_MusikBot Ke Grup Anda Dan Berikan Hak Admin Penuh
-2) Kemudian Tambahkan Assistent @GB_Musik Ke Grup Anda Dan Berikan Hak Admin
+1) Pertama Tambahkan Bot @marshal_musikbot Ke Grup Anda Dan Berikan Hak Admin Penuh
+2) Kemudian Tambahkan Assistent @marshalmusicast Ke Grup Anda Dan Berikan Hak Admin
 3) Setelah itu ikuti perintah di bawah ini.
 **PERINTAH UNTUK SEMUA ANGGOTA GRUP**
 • /play - balas url youtube atau file lagu untuk memutar lagu
@@ -33,22 +33,22 @@ async def start(_, message: Message):
 • Untuk Menghindari Bot Error Jangan Melakukan Spam Musik Ke Dalam Antrian Sekaligus
 • Musik Yang Melebihi Waktu 1 Jam Tidak Dapat Diputar Di Voice Chat
 • Jika Userbot Tidak Mau Naik Ke Voice Chat Akhiri Obrolan Suara Dan Mulai Lagi Obrolan Suara Nya
-• Jika Ada Masalah Silahkan Hubungi [ɢᴏᴏᴅ ʙᴏʏs](https://t.me/GB_03101999) Terimakasih, Selamat Bermusik**
+• Jika Ada Masalah Silahkan Hubungi [MarshalL](https://t.me/Lohanjingg) Terimakasih, Selamat Bermusik**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➗ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ➗", url="http://t.me/GB_MusikBot?startgroup=start")
+                        "➗ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ➗", url="http://t.me/marshal_musicbot?startgroup=start")
                   ],[
                     InlineKeyboardButton(
-                        "🎁 ᴅᴏɴᴀsɪ", url="https://saweria.co/DonasiUntukAdmin"
+                        "💟 INSTAGRAM", url="https://www.instagram.com/akwardy8/"
                     ),
                     InlineKeyboardButton(
-                        "sᴜᴘᴘᴏʀᴛ 💬", url="https://t.me/GB_03101999")
+                        "sᴜᴘᴘᴏʀᴛ 💬", url="https://t.me/resahaja")
                   ],[
                     InlineKeyboardButton(
-                        "⚒ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ  ⚒", url="https://github.com/t03b10t99/MusikPlayerBot"
+                        "⚒ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ  ⚒", url="https://github.com/dicyn/MusikPlayerBot"
                     )]
             ]
         ),
@@ -58,8 +58,8 @@ async def start(_, message: Message):
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
       await message.reply_text("""**BAGAIMANA CARA MENGGUNAKANNYA?**
-1) Pertama Tambahkan Bot @GB_MusikBot Ke Grup Anda Dan Berikan Hak Admin Penuh
-2) Kemudian Tambahkan Assistent @GB_Musik Ke Grup Anda Dan Berikan Hak Admin
+1) Pertama Tambahkan Bot @marshal_musikbot Ke Grup Anda Dan Berikan Hak Admin Penuh
+2) Kemudian Tambahkan Assistent @marshalmusicast Ke Grup Anda Dan Berikan Hak Admin
 3) Setelah itu ikuti perintah di bawah ini.
 **PERINTAH UNTUK SEMUA ANGGOTA GRUP**
 • /play - balas url youtube atau file lagu untuk memutar lagu
@@ -77,16 +77,16 @@ async def gstart(_, message: Message):
 • Untuk Menghindari Bot Error Jangan Melakukan Spam Musik Ke Dalam Antrian Sekaligus
 • Musik yang melebihi waktu 1 jam tidak dapat diputar di voice chat
 • Jika Userbot Tidak Mau Naik Ke Voice Chat Akhiri Obrolan Suara Dan Mulai Lagi Obrolan Suara Nya
-• Jika Ada Masalah Silahkan Hubungi [ɢᴏᴏᴅ ʙᴏʏs](https://t.me/GB_03101999) Terimakasih, Selamat Bermusik**
+• Jika Ada Masalah Silahkan Hubungi [MarshalL](https://t.me/Lohanjingg) Terimakasih, Selamat Bermusik**
         """,
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💬 sᴜᴘᴘᴏʀᴛ", url="https://t.me/GB_03101999"),
+                        "OWNER", url="https://t.me/Lohanjingg"),
 
                     InlineKeyboardButton(
-                        "ᴅᴏɴᴀsɪ 🎁", url="https://saweria.co/DonasiUntukAdmin")
+                        "CHANNEL", url="https://saweria.co/DonasiUntukAdmin")
                   ],[
                     InlineKeyboardButton(
                         "🔍 ᴄᴀʀɪ ᴍᴜsɪᴋ ᴅɪ ʏᴏᴜᴛᴜʙᴇ 🔎", switch_inline_query_current_chat=""
