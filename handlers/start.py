@@ -77,8 +77,8 @@ async def gstart(_, message: Message):
                   ],[
                     InlineKeyboardButton(
                         "❌ Tidak ", callback_data="close"
-
+                    )
                 ]
             ]
         )
-   )
+    )
