@@ -76,7 +76,7 @@ async def gstart(_, message: Message):
                         "ᴅᴏɴᴀsɪ 🎁", url="https://saweria.co/DonasiUntukAdmin")
                   ],[
                     InlineKeyboardButton(
-                        "❌ Tidak ", callback_data="close"
+                        "✅ Cari Link Youtube ✅", switch_inline_query_current_chat=""
                     )
                 ]
             ]
