@@ -42,10 +42,10 @@ async def start(_, message: Message):
                         "➗ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ➗", url="http://t.me/marshal_musicbot?startgroup=start")
                   ],[
                     InlineKeyboardButton(
-                        "💟 INSTAGRAM", url="https://www.instagram.com/akwardy8/"
+                        "OWNER", url="https://t. me/Lohanjingg"
                     ),
                     InlineKeyboardButton(
-                        "sᴜᴘᴘᴏʀᴛ 💬", url="https://t.me/resahaja")
+                        "CHANNEL", url="https://t.me/resahaja")
                   ],[
                     InlineKeyboardButton(
                         "⚒ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ  ⚒", url="https://github.com/dicyn/MusikPlayerBot"
