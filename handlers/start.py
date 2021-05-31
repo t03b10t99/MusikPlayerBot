@@ -20,7 +20,7 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ┣• Mendownload Musik.
 ┣• Mencari Musik Yang Ingin Di Putar Atau Di Download.
 ┗━━━━━━━━━━━━━━
-❃ Tekan: > /help < Untuk Melihat Cara Menggunakan Bot
+❃ Tekan > /help < Untuk Mengetahui Cara Menggunakan Bot
 ━━━━━━━━━━━━━━━
 Kutipan: Ada Waktunya Kita Akan Terpuruk Dan Menangis.
 Tapi Percayalah Di Setiap Tangis Pasti Akan Ada Kebahagiaan Yang Akan Datang**
@@ -63,8 +63,8 @@ async def gstart(_, message: Message):
 **📝 CATATAN:
 • Untuk Menghindari Bot Error Jangan Melakukan Spam Musik Ke Dalam Antrian Sekaligus
 • Musik yang melebihi waktu 1 jam tidak dapat diputar di voice chat
-• Jika Userbot Tidak Mau Naik Ke Voice Chat Akhiri Obrolan Suara Danan Mulai lagi Obrolan suara Nya
-• Jika Ada Masalah Silahkan Hubungi [ɢᴏᴏᴅ ʙᴏʏs](https://t.me/GB_03101999)! Selamat Bermusik**
+• Jika Userbot Tidak Mau Naik Ke Voice Chat Akhiri Obrolan Suara Danan Mulai Lagi Obrolan Suara Nya
+• Jika Ada Masalah Silahkan Hubungi [ɢᴏᴏᴅ ʙᴏʏs](https://t.me/GB_03101999) Terimakasih, Selamat Bermusik**
         """,
       reply_markup=InlineKeyboardMarkup(
             [
