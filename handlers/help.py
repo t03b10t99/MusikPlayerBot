@@ -39,7 +39,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➗ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ➗", url="http://t.me/marshal_musicbot?startgroup=start")
+                        "➗ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ➗", url="http://t.me/marshal_musikbot?startgroup=start")
                   ],[
                     InlineKeyboardButton(
                         "OWNER", url="https://t. me/Lohanjingg"
@@ -86,7 +86,7 @@ async def gstart(_, message: Message):
                         "OWNER", url="https://t.me/Lohanjingg"),
 
                     InlineKeyboardButton(
-                        "CHANNEL", url="https://saweria.co/DonasiUntukAdmin")
+                        "CHANNEL", url="https://t.me/resahaja")
                   ],[
                     InlineKeyboardButton(
                         "🔍 ᴄᴀʀɪ ᴍᴜsɪᴋ ᴅɪ ʏᴏᴜᴛᴜʙᴇ 🔎", switch_inline_query_current_chat=""
