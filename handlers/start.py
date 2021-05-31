@@ -70,11 +70,15 @@ async def gstart(_, message: Message):
             [
                 [
                      InlineKeyboardButton(
-                        "✅ Ya", switch_inline_query_current_chat=""),
-                     InlineKeyboardButton(
+                        "💬 sᴜᴘᴘᴏʀᴛ", url="https://t.me/GB_03101999"),
+
+                    InlineKeyboardButton(
+                        "ᴅᴏɴᴀsɪ 🎁", url="https://saweria.co/DonasiUntukAdmin")
+                  ],[
+                    InlineKeyboardButton(
                         "❌ Tidak ", callback_data="close"
 
+                ]
             ]
         )
    )
-
