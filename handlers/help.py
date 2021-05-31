@@ -84,8 +84,11 @@ async def gstart(_, message: Message):
 
                     InlineKeyboardButton(
                         "ᴅᴏɴᴀsɪ 🎁", url="https://saweria.co/DonasiUntukAdmin")
+                  ],[
+                    InlineKeyboardButton(
+                        "🔍 ᴄᴀʀɪ ʟɪɴᴋ ʏᴏᴜᴛᴜʙᴇ 🔎", switch_inline_query_current_chat=""
+                    )
                 ]
             ]
         )
-   )
-
+    )
