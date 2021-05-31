@@ -14,7 +14,7 @@ async def start(_, message: Message):
         f"""**┗┓ Hai {message.from_user.mention} Nama Saya Adalah {bn} ┏┛
 
 Saya Bot Music Group, Yang Dapat Memutar Musik Di Voice Chat Group Dengan Cara Yang Mudah
-Saya Memiliki Banyak Fitur Praktis Seperti :
+Saya Memiliki Banyak Fitur Praktis Seperti:
 ┏━━━━━━━━━━━━━━
 ┣• Memutar Musik.
 ┣• Mendownload Musik.
@@ -63,7 +63,7 @@ async def gstart(_, message: Message):
 **📝 CATATAN:
 • Untuk Menghindari Bot Error Jangan Melakukan Spam Musik Ke Dalam Antrian Sekaligus
 • Musik yang melebihi waktu 1 jam tidak dapat diputar di voice chat
-• Jika Userbot Tidak Mau Naik Ke Voice Chat Akhiri Obrolan Suara Danan Mulai Lagi Obrolan Suara Nya
+• Jika Userbot Tidak Mau Naik Ke Voice Chat Akhiri Obrolan Suara Dan Mulai Lagi Obrolan Suara Nya
 • Jika Ada Masalah Silahkan Hubungi [ɢᴏᴏᴅ ʙᴏʏs](https://t.me/GB_03101999) Terimakasih, Selamat Bermusik**
         """,
       reply_markup=InlineKeyboardMarkup(
