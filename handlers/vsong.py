@@ -21,10 +21,8 @@ import sys
 import time
 from helpers.errors import DurationLimitError
 
-@Client.on_message(filters.command('song') & ~filters.channel)
-def song(client, message):
 
-@Client.on_message(filters.command(["vsong", "video"]))
+@Client.on_message(filters.command('vsong') & ~filters.channel)
 async def ytmusic(client,message: Message):
     global is_downloading
     if is_downloading:
