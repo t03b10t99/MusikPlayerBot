@@ -48,7 +48,7 @@ async def start(_, message: Message):
                         "sᴜᴘᴘᴏʀᴛ 💬", url="https://t.me/GB_03101999")
                   ],[
                     InlineKeyboardButton(
-                        "Back", callback_data="start"
+                        "Back", callback_data="help_back"
                     )]
             ]
         ),
