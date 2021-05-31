@@ -31,9 +31,9 @@ async def start(_, message: Message):
 
 **📝 CATATAN:
 • Untuk Menghindari Bot Error Jangan Melakukan Spam Musik Ke Dalam Antrian Sekaligus
-• Musik yang melebihi waktu 1 jam tidak dapat diputar di voice chat
-• Jika Userbot Tidak Mau Naik Ke Voice Chat Akhiri Obrolan Suara Danan Mulai lagi Obrolan suara Nya
-• Jika Ada Masalah Silahkan Hubungi [ɢᴏᴏᴅ ʙᴏʏs](https://t.me/GB_03101999)! Selamat Bermusik**
+• Musik Yang Melebihi Waktu 1 Jam Tidak Dapat Diputar Di Voice Chat
+• Jika Userbot Tidak Mau Naik Ke Voice Chat Akhiri Obrolan Suara Danan Mulai Lagi Obrolan Suara Nya
+• Jika Ada Masalah Silahkan Hubungi [ɢᴏᴏᴅ ʙᴏʏs](https://t.me/GB_03101999) Terimakasih, Selamat Bermusik**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -73,8 +73,8 @@ async def gstart(_, message: Message):
 **📝 CATATAN:
 • Untuk Menghindari Bot Error Jangan Melakukan Spam Musik Ke Dalam Antrian Sekaligus
 • Musik yang melebihi waktu 1 jam tidak dapat diputar di voice chat
-• Jika Userbot Tidak Mau Naik Ke Voice Chat Akhiri Obrolan Suara Danan Mulai lagi Obrolan suara Nya
-• Jika Ada Masalah Silahkan Hubungi [ɢᴏᴏᴅ ʙᴏʏs](https://t.me/GB_03101999)! Selamat Bermusik**
+• Jika Userbot Tidak Mau Naik Ke Voice Chat Akhiri Obrolan Suara Dan Mulai Lagi Obrolan Suara Nya
+• Jika Ada Masalah Silahkan Hubungi [ɢᴏᴏᴅ ʙᴏʏs](https://t.me/GB_03101999) Terimakasih, Selamat Bermusik**
         """,
       reply_markup=InlineKeyboardMarkup(
             [
