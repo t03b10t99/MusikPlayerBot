@@ -94,12 +94,12 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="💬 sᴜᴘᴘᴏʀᴛ",
-                        url="https://t.me/GB_03101999"),
+                        text="OWNER",
+                        url="https://t.me/Lohanjingg"),
 
                     InlineKeyboardButton(
-                            text="ᴅᴏɴᴀsɪ 🎁",
-                            url=f"https://saweria.co/DonasiUntukAdmin")
+                            text="CHANNEL",
+                            url=f"https://t.me/resahaja")
                   ],[
                     InlineKeyboardButton(
                         "🔍 ᴄᴀʀɪ ᴍᴜsɪᴋ ᴅɪ ʏᴏᴜᴛᴜʙᴇ 🔎", switch_inline_query_current_chat=""
@@ -120,7 +120,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/a3927932a5e30bda61129.jpg"
+        thumb_name = "https://telegra.ph/file/daab8958b4923025726c4.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -128,12 +128,12 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                        text="💬 sᴜᴘᴘᴏʀᴛ",
-                        url="https://t.me/GB_03101999"),
+                        text="OWNER",
+                        url="https://t.me/Lohanjingg"),
 
                     InlineKeyboardButton(
-                            text="ᴅᴏɴᴀsɪ 🎁",
-                            url=f"https://saweria.co/DonasiUntukAdmin")
+                            text="CHANNEL",
+                            url=f"https://t. me/resahaja")
                   ],[
                     InlineKeyboardButton(
                         "🔍 ᴄᴀʀɪ ᴍᴜsɪᴋ ᴅɪ ʏᴏᴜᴛᴜʙᴇ 🔎", switch_inline_query_current_chat=""
@@ -164,12 +164,12 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                        text="💬 sᴜᴘᴘᴏʀᴛ",
-                        url="https://t.me/GB_03101999"),
+                        text="OWNER",
+                        url="https://t.me/Lohanjingg"),
 
                     InlineKeyboardButton(
-                            text="ᴅᴏɴᴀsɪ 🎁",
-                            url=f"https://saweria.co/DonasiUntukAdmin")
+                            text="CHANNEL",
+                            url=f"https://t.me/resahaja")
                   ],[
                     InlineKeyboardButton(
                         "🔍 ᴄᴀʀɪ ᴍᴜsɪᴋ ᴅɪ ʏᴏᴜᴛᴜʙᴇ 🔎", switch_inline_query_current_chat=""
@@ -180,19 +180,19 @@ async def play(_, message: Message):
                 )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/a3927932a5e30bda61129.jpg"
+            thumb_name = "https://telegra.ph/file/daab8958b4923025726c4.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                        text="💬 sᴜᴘᴘᴏʀᴛ",
-                        url="https://t.me/GB_03101999"),
+                        text="OWNER",
+                        url="https://t.me/Lohanjingg"),
 
                     InlineKeyboardButton(
-                            text="ᴅᴏɴᴀsɪ 🎁",
-                            url=f"https://saweria.co/DonasiUntukAdmin")
+                            text="CHANNEL",
+                            url=f"https://t.me./resahaja")
                   ],[
                     InlineKeyboardButton(
                         "🔍 ᴄᴀʀɪ ᴍᴜsɪᴋ ᴅɪ ʏᴏᴜᴛᴜʙᴇ 🔎", switch_inline_query_current_chat=""
@@ -242,12 +242,12 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                        text="💬 sᴜᴘᴘᴏʀᴛ",
-                        url="https://t.me/GB_03101999"),
+                        text="OWNER",
+                        url="https://t.me/Lohanjingg"),
 
                     InlineKeyboardButton(
-                            text="ᴅᴏɴᴀsɪ 🎁",
-                            url=f"https://saweria.co/DonasiUntukAdmin")
+                            text="CHANNEL",
+                            url=f"https://t.me/resahaja")
                   ],[
                     InlineKeyboardButton(
                         "🔍 ᴄᴀʀɪ ᴍᴜsɪᴋ ᴅɪ ʏᴏᴜᴛᴜʙᴇ 🔎", switch_inline_query_current_chat=""
