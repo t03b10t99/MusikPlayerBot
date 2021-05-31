@@ -250,7 +250,7 @@ async def play(_, message: Message):
                             url=f"https://saweria.co/DonasiUntukAdmin")
                   ],[
                     InlineKeyboardButton(
-                        "🔍 ᴄᴀʀɪ ᴍᴜsɪᴋ ᴅɪ ʏᴏᴜᴛᴜʙᴇ 🔎", ytdl_audio=""
+                        "🔍 ᴄᴀʀɪ ᴍᴜsɪᴋ ᴅɪ ʏᴏᴜᴛᴜʙᴇ 🔎", switch_inline_query_current_chat=""
                     )
 
                     ]
