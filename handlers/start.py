@@ -73,7 +73,7 @@ async def gstart(_, message: Message):
                         "✅ Ya", switch_inline_query_current_chat=""),
                      InlineKeyboardButton(
                         "❌ Tidak ", callback_data="close"
-                ]
+
             ]
         )
    )
