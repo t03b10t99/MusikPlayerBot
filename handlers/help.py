@@ -5,7 +5,7 @@ from config import BOT_NAME as bn
 from helpers.filters import other_filters2
 
 
-GB_MUSIK_BOT_IMG= "https://telegra.ph/file/625c18e0b9335553152ac.jpg"
+GB_MUSIK_BOT_IMG= "https://telegra.ph/file/e8e48ccac42c9068d2a15.jpg"
 
 @Client.on_message(filters.command("help") & filters.private & ~filters.channel)
 async def start(_, message: Message):
