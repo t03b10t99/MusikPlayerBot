@@ -69,11 +69,11 @@ async def gstart(_, message: Message):
       reply_markup=InlineKeyboardMarkup(
             [
                 [
+                     InlineKeyboardButton(
+                        "✅ Ya", switch_inline_query_current_chat=""
+                    ),
                     InlineKeyboardButton(
-                        "💬 sᴜᴘᴘᴏʀᴛ", url="https://t.me/GB_03101999"),
-
-                    InlineKeyboardButton(
-                        "ᴅᴏɴᴀsɪ 🎁", url="https://saweria.co/DonasiUntukAdmin")
+                        "❌ Tidak ", callback_data="close"
                 ]
             ]
         )
