@@ -103,23 +103,35 @@ def a(client, message):
         print(e)
 
 
-@Client.on_message(filters.command(['song']))
+@Client.on_message(filters.command(['vsong']))
 def a(client, message):
     query = ''
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
     m = message.reply('**🔎 Sedang Mencari Video**')
+    ydl_opts = {"format": "bestaudio[ext=m4a]"}
+    try:
+        results = []
+        count = 0
+        while len(results) == 0 and count < 6:
+            if count>0:
+                time.sleep(1)
+            results = YoutubeSearch(query, max_results=1).to_dict()
+            count += 1
+        # results = YoutubeSearch(query, max_results=1).to_dict()
+        try:
+            link = f"https://youtube.com{results[0]['url_suffix']}"
+            # print(results)
+            title = results[0]["title"]
+            thumbnail = results[0]["thumbnails"][0]
+            duration = results[0]["duration"]
+            views = results[0]["views"]
 
-
-    urlissed = get_text(message)
-
-    pablo =  await client.send_message(
-            message.chat.id,
-            f"`Getting {urlissed} From Youtube Servers. Please Wait.`")
-    if not urlissed:
-        await pablo.edit("Invalid Command Syntax, Please Check Help Menu To Know More!")
-        return
+            ## UNCOMMENT THIS IF YOU WANT A LIMIT ON DURATION. CHANGE 1800 TO YOUR OWN PREFFERED DURATION AND EDIT THE MESSAGE (30 minutes cap) LIMIT IN SECONDS
+            # if time_to_seconds(duration) >= 1800:  # duration limit
+            #     m.edit("Exceeded 30mins cap")
+            #     return
     
     search = SearchVideos(f"{urlissed}", offset=1, mode="dict", max_results=1)
     mi = search.result()
