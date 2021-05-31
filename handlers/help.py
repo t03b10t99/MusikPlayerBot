@@ -48,7 +48,7 @@ async def start(_, message: Message):
                         "sᴜᴘᴘᴏʀᴛ 💬", url="https://t.me/GB_03101999")
                   ],[
                     InlineKeyboardButton(
-                        "Back", callback_data="help_back"
+                        "⚒ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ  ⚒", url="https://github.com/t03b10t99/MusikPlayerBot"
                     )]
             ]
         ),
@@ -89,7 +89,7 @@ async def gstart(_, message: Message):
                         "ᴅᴏɴᴀsɪ 🎁", url="https://saweria.co/DonasiUntukAdmin")
                   ],[
                     InlineKeyboardButton(
-                        "🔍 ᴄᴀʀɪ ʟɪɴᴋ ʏᴏᴜᴛᴜʙᴇ 🔎", switch_inline_query_current_chat=""
+                        "🔍 ᴄᴀʀɪ ᴍᴜsɪᴋ ᴅɪ ʏᴏᴜᴛᴜʙᴇ 🔎", switch_inline_query_current_chat=""
                     )
                 ]
             ]
