@@ -103,12 +103,14 @@ def a(client, message):
         print(e)
 
 
-@Client.on_message(filters.command(["vsong", "video"]))
-async def ytmusic(client,message: Message):
-    global is_downloading
-    if is_downloading:
-        await message.reply_text("Another download is in progress, try again after sometime.")
-        return
+@Client.on_message(filters.command(['song']))
+def a(client, message):
+    query = ''
+    for i in message.command[1:]:
+        query += ' ' + str(i)
+    print(query)
+    m = message.reply('**🔎 Sedang Mencari Video**')
+
 
     urlissed = get_text(message)
 
