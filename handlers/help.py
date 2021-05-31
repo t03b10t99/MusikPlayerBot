@@ -45,7 +45,10 @@ async def start(_, message: Message):
                         "🎁 ᴅᴏɴᴀsɪ", url="https://saweria.co/DonasiUntukAdmin"
                     ),
                     InlineKeyboardButton(
-                        "sᴜᴘᴘᴏʀᴛ 💬", url="https://t.me/GB_03101999"
+                        "sᴜᴘᴘᴏʀᴛ 💬", url="https://t.me/GB_03101999")
+                  
+                    InlineKeyboardButton(
+                        "Back", callback_data="start"
                     )]
             ]
         ),
