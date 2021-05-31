@@ -1,9 +1,9 @@
-<h2 align="centre">ɢʙ | ᴍᴜsɪᴋ ʙᴏᴛ</h2>
+<h2 align="centre">MARSHAL | MUSIK BOT</h2>
 
 ### A bot that can play music on telegram group's voice call
 
 <p align="center">
-  <img src="https://telegra.ph/file/7feef86e48dd2170e813d.jpg">
+  <img src="https://telegra.ph/file/daab8958b4923025726c4.jpg">
 </p>
 
 <h3>Requirements 📝</h3>
