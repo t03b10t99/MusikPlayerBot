@@ -132,19 +132,24 @@ def a(client, message):
             # if time_to_seconds(duration) >= 1800:  # duration limit
             #     m.edit("Exceeded 30mins cap")
             #     return
-    
-    mi = search.result()
-    mio = mi["search_result"]
-    mo = mio[0]["link"]
-    thum = mio[0]["title"]
-    fridayz = mio[0]["id"]
-    thums = mio[0]["channel"]
-    kekme = f"https://img.youtube.com/vi/{fridayz}/hqdefault.jpg"
-    await asyncio.sleep(0.6)
-    url = mo
-    sedlyf = wget.download(kekme)
-    opts = {
-            "format": "best",
+                performer = f"[ɢᴏᴏᴅ ʙᴏʏs]" 
+            thumb_name = f'thumb{message.message_id}.jpg'
+            thumb = requests.get(thumbnail, allow_redirects=True)
+            open(thumb_name, 'wb').write(thumb.content)
+
+        except Exception as e:
+            print(e)
+            m.edit('**❌ Musik tidak ditemukan. Silakan Coba Lagu Lain atau Gunakan Ejaan yang Benar!**')
+            return
+    except Exception as e:
+        m.edit(
+            "**✅ Masukkan Nama Video dengan benar!**"
+        )
+        print(str(e))
+        return
+    m.edit("**🔄 Sedang Mendownload Video**")
+    try:
+        "format": "best",
             "addmetadata": True,
             "key": "FFmpegMetadata",
             "prefer_ffmpeg": True,
@@ -165,7 +170,7 @@ def a(client, message):
 
             if duration > 8:
                 await pablo.edit(
-                    f"❌ Videos longer than 8 minute(s) aren't allowed, the provided video is {duration} minute(s)"
+                    f"❌ Videos longer than 60 minute(s) aren't allowed, the provided video is {duration} minute(s)"
                 )
                 is_downloading = False
                 return
