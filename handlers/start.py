@@ -16,7 +16,7 @@ async def start(_, message: Message):
 Saya Bot Music Group, Yang Dapat Memutar Musik Di Voice Chat Group Dengan Cara Yang Mudah
 Saya Memiliki Banyak Fitur Praktis Seperti:
 ┏━━━━━━━━━━━━━━
-┣• Memutar Musik.
+┣• Memutar Musik
 ┣• Mendownload Musik.
 ┣• Mencari Musik Yang Ingin Di Putar Atau Di Download.
 ┗━━━━━━━━━━━━━━
