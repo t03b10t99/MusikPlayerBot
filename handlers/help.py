@@ -7,7 +7,7 @@ from helpers.filters import other_filters2
 
 GB_MUSIK_BOT_IMG= "https://telegra.ph/file/e8e48ccac42c9068d2a15.jpg"
 
-@Client.on_message(filters.command("help") & filters.private & ~filters.channel)
+@Client.on_message(filters.command("yugyyugrrf") & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_photo(GB_MUSIK_BOT_IMG)
     await message.reply_text(
@@ -58,8 +58,8 @@ async def start(_, message: Message):
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
       await message.reply_text("""**BAGAIMANA CARA MENGGUNAKANNYA?**
-1) Pertama Tambahkan Bot @GB_MusikBot Ke Grup Anda Dan Berikan Hak Admin Penuh
-2) Kemudian Tambahkan Assistent @GB_Musik Ke Grup Anda Dan Berikan Hak Admin
+1) Pertama Tambahkan Bot @MusicAnydlBot Ke Grup Anda Dan Berikan Hak Admin Penuh
+2) Kemudian Tambahkan Assistent @MusicAnydlAssistant Ke Grup Anda Dan Berikan Hak Admin
 3) Setelah itu ikuti perintah di bawah ini.
 **PERINTAH UNTUK SEMUA ANGGOTA GRUP**
 • /play - balas url youtube atau file lagu untuk memutar lagu
