@@ -216,7 +216,7 @@ async def play(_, message: Message):
         for i in message.command[1:]:
             query += ' ' + str(i)
         print(query)
-        await lel.edit("**▶️ Sedang Memperoses Memutar Musik**")
+        await lel.edit("**▶️ Sedang Memperoses tunggu Bentar Nyett!!**")
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
