@@ -5,11 +5,8 @@ from config import BOT_NAME as bn
 from helpers.filters import other_filters2
 
 
-GB_MUSIK_BOT_IMG= "https://telegra.ph/file/e8e48ccac42c9068d2a15.jpg"
-
-@Client.on_message(filters.command("help") & filters.private & ~filters.channel)
+@Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
-    await message.reply_photo(GB_MUSIK_BOT_IMG)
     await message.reply_text(
         f"""**┗┓ Hai {message.from_user.mention} Nama Saya Adalah {bn} ┏┛**
 
