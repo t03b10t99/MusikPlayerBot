@@ -1,28 +1,26 @@
 <h2 align="centre">Music Anydl Bot</h2>
 
-### ┈───────────────────┈
-☑️ Saya memiliki banyak fitur untuk anda yang suka lagu
+### ☑️ Saya memiliki banyak fitur untuk anda yang suka lagu
 🔘 Memutar lagu di group 
 🔘 Mendownload lagu
 🔘 Mendownload video
 🔘 Mencari link youtube
 🔘 Mencari lirik lagu
-┈───────────────────┈
 
 <p align="center">
   <img src="https://telegra.ph/file/6821d304091f7a2c8032d.jpg">
 </p>
 
-###🔰 Perintah
+### 🔰 Perintah
 
-####=>> Memutar Lagu 🎧
+### =>> Memutar Lagu 🎧
 
 • `/play` (nama lagu) - Untuk Memutar lagu yang Anda minta melalui youtube
 • `/dplay` (nama lagu) - Untuk Memutar lagu yang Anda minta melalui deezer
 • `/splay` (nama lagu) - Untuk Memutar lagu yang Anda minta melalui jio saavn
 • `/ytplay` (nama lagu) - Untuk Memutar lagu yang Anda minta melalui youtube tanpa pilihan
 
-###=>> Pemutaran ⏯
+### =>> Pemutaran ⏯
 
 • `/player`: Buka menu Pengaturan pemain
 • `/skip`: Melewati trek saat ini
