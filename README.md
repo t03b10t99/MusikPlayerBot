@@ -15,22 +15,22 @@
 
 ### =>> Memutar Lagu 🎧
 
-• `/play` (nama lagu) - Untuk Memutar lagu yang Anda minta melalui youtube
-• `/dplay` (nama lagu) - Untuk Memutar lagu yang Anda minta melalui deezer
-• `/splay` (nama lagu) - Untuk Memutar lagu yang Anda minta melalui jio saavn
-• `/ytplay` (nama lagu) - Untuk Memutar lagu yang Anda minta melalui youtube tanpa pilihan
+- `/play` (nama lagu) - Untuk Memutar lagu yang Anda minta melalui youtube
+- `/dplay` (nama lagu) - Untuk Memutar lagu yang Anda minta melalui deezer
+- `/splay` (nama lagu) - Untuk Memutar lagu yang Anda minta melalui jio saavn
+- `/ytplay` (nama lagu) - Untuk Memutar lagu yang Anda minta melalui youtube tanpa pilihan
 
 ### =>> Pemutaran ⏯
 
-• `/player`: Buka menu Pengaturan pemain
-• `/skip`: Melewati trek saat ini
-• `/pause`: Jeda trek
-• `/resume`: Melanjutkan trek yang dijeda
-• `/end`: ​​Menghentikan pemutaran media
-• `/current`: Menampilkan trek yang sedang diputar
-• `/playlist`: Menampilkan daftar putar
+- `/player`: Buka menu Pengaturan pemain
+- `/skip`: Melewati trek saat ini
+- `/pause`: Jeda trek
+- `/resume`: Melanjutkan trek yang dijeda
+- `/end`: ​​Menghentikan pemutaran media
+- `/current`: Menampilkan trek yang sedang diputar
+- `/playlist`: Menampilkan daftar putar
 
-Semua Perintah Bisa Digunakan Kecuali Perintah `/player /skip /pause /resume  /end` Hanya Untuk Admin Grup
+☑️ Semua Perintah Bisa Digunakan Kecuali Perintah `/player /skip /pause /resume  /end` Hanya Untuk Admin Grup
 
 ### Deploy To Heroku</h4>
 
