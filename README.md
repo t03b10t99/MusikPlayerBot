@@ -30,7 +30,7 @@
 - `/current`: Menampilkan trek yang sedang diputar
 - `/playlist`: Menampilkan daftar putar
 
-☑️ Semua Perintah Bisa Digunakan Kecuali Perintah `/player /skip /pause /resume  /end` Hanya Untuk Admin Grup
+### ☑️ Semua Perintah Bisa Digunakan Kecuali Perintah `/player /skip /pause /resume  /end` Hanya Untuk Admin Grup
 
 ### Deploy To Heroku</h4>
 
